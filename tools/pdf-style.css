@@ -1,0 +1,13 @@
+@page { size: Letter; margin: 0.75in; }
+body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 10.5pt; line-height: 1.4; color: #1a1a1a; max-width: none; margin: 0; padding: 0; }
+header#title-block-header { display: none; }
+h1 { font-size: 17pt; margin: 0 0 0.4em; border-bottom: 2px solid #1f4e79; padding-bottom: 0.2em; color: #1f4e79; }
+h2 { font-size: 13pt; margin: 1.1em 0 0.4em; color: #1f4e79; }
+h3 { font-size: 11pt; margin: 0.9em 0 0.3em; }
+table { border-collapse: collapse; width: 100%; font-size: 9pt; margin: 0.6em 0; page-break-inside: auto; }
+tr { page-break-inside: avoid; }
+th, td { border: 1px solid #b7c4d1; padding: 4px 6px; text-align: left; vertical-align: top; }
+th { background: #e8eef4; }
+code { font-size: 9pt; }
+a { color: #1f4e79; }
+em { color: #444; }
