@@ -1,11 +1,11 @@
 # Inventory Notes — Analyst Columns (S5)
 
-**Status:** DRAFT. **Sensitivity and TDPSA category are PROPOSED — Brittany to decide.** Drafted 2026-11-03. Loaded into `deliverables/1-data-inventory.xlsx` by `tools/build_inventory.py`.
+**Status:** Brittany approved the sensitivity scale and decided the contested calls on 2026-11-03: DE-11/12/14/21 = Sensitive data; DE-16 = High; DE-24 = Medium. The other values apply the approved scale as drafted and stand unless Brittany changes them. Drafted 2026-11-03. Loaded into `deliverables/1-data-inventory.xlsx` by `tools/build_inventory.py`.
 
 _Fictional company, product, and data. Data types only. Not legal advice._
 
 ## Key
-- **Sensitivity (PROPOSED scale):** **High** = Texas "sensitive data," or data that can reveal it (location trails, sensitive event categories), or financial data. **Medium** = directly identifying or linkable data that can be used for profiling or advertising. **Low** = operational data with limited exposure.
+- **Sensitivity (scale approved by Brittany, 2026-11-03):** **High** = Texas "sensitive data," or data that can reveal it (location trails, sensitive event categories), or financial data. **Medium** = directly identifying or linkable data that can be used for profiling or advertising. **Low** = operational data with limited exposure.
 - **TDPSA category:** "Sensitive data" §541.001(29) [S01]; "Personal data" §541.001(19); "Pseudonymous data" §541.001(26); "Deidentified data" §541.001(12). Where a type is sensitive only for some values (e.g., event categories), it is marked **Sensitive data**, and the notes explain why.
 - **§541.105 triggers** (data protection assessment required) [S01]: (a)(1) targeted advertising; (a)(2) sale; (a)(3) profiling with foreseeable risk; (a)(4) sensitive data; (a)(5) other heightened risk.
 - **FIPPs** [S07]: Access and Amendment; Accountability; Authority; Minimization; Quality and Integrity; Individual Participation; Purpose Specification and Use Limitation; Security; Transparency.

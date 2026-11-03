@@ -75,5 +75,5 @@
 **Next step (S6):** Data-flow map (Mermaid) built from the Data x Recipients matrix: users → app → Mesquite Lantern systems → processors vs. third parties, with sensitive flows highlighted. Must render on GitHub, plus a PDF.
 
 **Open questions for Brittany**
-- Sensitivity scale and calls (asked at the end of S5).
+- ~~Sensitivity~~ **Decided:** scale approved; DE-11/12/14/21 = Sensitive data (whole type, since the design mixes in sensitive categories); DE-16 = High; DE-24 = Medium (S7 flags the precision issue). Other values stand as drafted under the approved scale.
 - Still pending: manual check of Ch. 541 "Amended by" lines; push on hold.
