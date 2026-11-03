@@ -138,6 +138,6 @@
 **Next step (S10):** Brittany confirms or changes the 41 scores. Then draft the risk assessment and findings table (`deliverables/2-risk-assessment.md`): select findings from P/D/NF items, write requirement / what the docs say / gap / recommendation, and Brittany assigns risk ratings.
 
 **Open questions for Brittany**
-- **D12.4:** D or P?
-- Confirm or change the 41 PROPOSED scores (evidence-notes.md or the .xlsx).
+- ~~D12.4~~ **Decided: D.**
+- ~~Score review~~ **All 41 scores confirmed by Brittany (2026-11-03).**
 - Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
