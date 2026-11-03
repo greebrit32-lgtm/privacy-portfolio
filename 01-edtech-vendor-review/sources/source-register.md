@@ -24,6 +24,15 @@ Every factual claim in the deliverables cites a source ID from this table. Snaps
 |----|-------|-----------|-----|----------------------------|---------------|----------|------|
 | S12 | Standard Student Data Privacy Agreement, TX-NDPA v1r6: Red Oak ISD and Quizizz | Student Data Privacy Consortium (SDPC) Resource Registry; linked as the Texas "Sign Exhibit E" link in S06 | https://sdpc.a4l.org/agreements/2025-07-09_3816_918_signed_agreement_file.pdf | TX-NDPA v1r6. Provider e-signature log dated 06/11/2025; registry file dated 2025-07-09 | 2026-11-03 | **Not stored.** The file contains signatories' names, emails, and IP addresses. Use the URL; SHA-256 is in MANIFEST | Signed DPA (scanned, 24 pp.) |
 
+## Archived Quizizz-era versions (primary, retrieved from the Internet Archive)
+
+These are the versions that were live when the Texas DPA (S12) was signed (provider e-signature 06/11/2025). Each is the latest Wayback capture before that date.
+
+| ID | Title | Publisher | URL | Doc version / last updated | Date accessed | Snapshot | Type |
+|----|-------|-----------|-----|----------------------------|---------------|----------|------|
+| S14 | Quizizz Privacy Policy and Privacy Notice (archived) | Quizizz Inc. | https://web.archive.org/web/20250603032215/https://quizizz.com/privacy | "Effective Date of Revisions December 10, 2024"; captured 2025-06-03 | 2026-11-03 | [S14](snapshots/2026-11-03/S14-quizizz-privacy-policy-archived-2025-06-03.txt) | Privacy policy (prior version) |
+| S15 | Quizizz Terms and Conditions of Use (archived) | Quizizz Inc. | https://web.archive.org/web/20250530035105/https://quizizz.com/tos | "Updated: March 1, 2024"; captured 2025-05-30 | 2026-11-03 | [S15](snapshots/2026-11-03/S15-quizizz-terms-archived-2025-05-30.txt) | Terms (prior version) |
+
 ## Secondary sources (context only, labeled as secondary)
 
 | ID | Title | Publisher | URL | Doc version / last updated | Date accessed | Snapshot | Type |
@@ -36,4 +45,4 @@ Every factual claim in the deliverables cites a source ID from this table. Snaps
   - "State and District Privacy Agreements" redirects to the matching Wayground article (S06).
   - "Subprocessors and Service Providers Used by Quizizz" redirects to the Help Center **home page**, not to the article. The current list is S05.
 - S06's state table links to agreements on the SDPC registry. Only the Texas row was opened this session. The Tennessee and Utah links go to agreements for those states, not Texas.
-- Not yet searched: archived pre-rebrand (Quizizz-branded) versions of the privacy policy and terms, e.g. through the Internet Archive. Candidate for S8 if the comparison is needed.
+- Archived pre-rebrand versions were added as S14–S15 at Brittany's request. The Wayback Machine served them gzip-compressed; the fingerprints in MANIFEST are of the decompressed HTML.

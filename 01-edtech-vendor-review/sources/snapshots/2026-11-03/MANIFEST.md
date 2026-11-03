@@ -16,3 +16,5 @@ Text extracted from each page (navigation and scripts stripped). SHA-256 is of t
 | S10 | S10-deploy-wayground-ai.txt | https://help.wayground.com/support/solutions/articles/158000453414-deploy-wayground-ai-for-your-school-or-district | `cfc91312b0d077fb…` |
 | S11 | S11-wayground-ai-product-page.txt | https://wayground.com/quizizz-ai | `5f74e3c89f6376b0…` |
 | S12 | _not stored — contains signatories' personal data_ | https://sdpc.a4l.org/agreements/2025-07-09_3816_918_signed_agreement_file.pdf | `902c85addf5e9084…` |
+| S14 | S14-quizizz-privacy-policy-archived-2025-06-03.txt | https://web.archive.org/web/20250603032215/https://quizizz.com/privacy | `02a4a296493408ea…` |
+| S15 | S15-quizizz-terms-archived-2025-05-30.txt | https://web.archive.org/web/20250530035105/https://quizizz.com/tos | `571dc0ac33f6563c…` |

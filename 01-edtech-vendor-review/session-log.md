@@ -37,8 +37,9 @@
 - AI question: S05 has a separate "AI service providers" table (Portkey, Microsoft Azure, Google Cloud, AWS). S01 mentions AI and LLMs. S10 describes the Wayground AI Chrome extension as teacher-only.
 - S01 still links to `support.quizizz.com` URLs. One of them redirects to the Help Center home page instead of the subprocessor article.
 
+**Addendum (same day):** Brittany decided to include the archived Quizizz-era versions. Added S14 (Quizizz Privacy Policy, effective 2024-12-10, captured 2025-06-03) and S15 (Quizizz Terms, updated 2024-03-01, captured 2025-05-30), which were the versions live when S12 was signed. Both already mention "Quizizz AI." S8 will compare S14 with S01 to see what changed about AI and student data after the rebrand.
+
 **Next step (S4):** Collect the legal and benchmark sources: FERPA (34 CFR Part 99, esp. §99.31(a)(1)), COPPA Rule (16 CFR Part 312) and FTC guidance on schools, TEC Ch. 32 Subch. D, and the SDPC NDPA and TX-NDPA templates (blank, from SDPC/TXSPA). Fill in the study-note citations.
 
 **Open questions for Brittany**
-- Should S8 compare against archived Quizizz-era versions of the privacy policy, or only current documents plus the signed agreement?
 - Still open: repo license; checking the keychain for CJ's GitHub login before the first push.
