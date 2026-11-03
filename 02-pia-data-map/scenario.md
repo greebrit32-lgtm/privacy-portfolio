@@ -52,20 +52,24 @@ The product team plans to launch Lantern Local next quarter. The General Counsel
 
 **Third parties (fictional, described by role only):** a cloud hosting provider, a payment processor, an analytics SDK provider, an advertising network, a push-notification service, and event organizers.
 
-## 5. Out of scope
+## 5. Stated assumptions (Brittany, 2026-11-03)
+- **Texas Data Privacy and Security Act applies in full.** For this exercise, Mesquite Lantern Co. is assumed **not** to qualify as a small business under U.S. Small Business Administration definitions, so the exemption in Tex. Bus. & Com. Code §541.002(a)(3) [S01] does not apply. SBA size standards were not analyzed. (If it did qualify, §541.107 would still require consent before selling sensitive data [S01].)
+- **Report structure:** the PIA follows the data protection assessment elements in §541.105(b) [S01] (benefits vs. risks, de-identified data, consumer expectations, context, relationship). The nine FIPPs [S07] are the risk lens.
+
+## 6. Out of scope
 - Users outside Texas, and laws of other states (noted as a limit)
 - Employee data and internal HR systems
 - Detailed security testing (the PIA records security controls as described by engineering)
 - Contract negotiation with vendors (the PIA recommends terms only)
 
-## 6. Review standards
+## 7. Review standards
 Named here only. Each will be registered with a URL and access date in S2.
 - **Texas Data Privacy and Security Act** (Texas consumer privacy law)
 - **FTC Act Section 5** (unfair or deceptive practices) and FTC guidance on location data and advertising
 - **Fair Information Practice Principles (FIPPs)**
-- A **publicly available PIA template** as the structural benchmark (to be chosen in S2)
+- **Report structure:** Tex. Bus. & Com. Code §541.105(b) data protection assessment elements (decided S2; see §5)
 
-## 7. Roles
+## 8. Roles
 
 | Role | Who | Responsibility |
 |------|-----|----------------|
