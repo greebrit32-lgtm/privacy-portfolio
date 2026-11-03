@@ -154,3 +154,14 @@
 **Open questions for Brittany**
 - The recommendation decision (S11).
 - Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
+
+## S11 — 2026-11-03 — 2-page memo ✅
+**Done**
+- **Brittany's decision: CONDITIONAL APPROVAL, PHASED.** Core features are approved after the Phase 1 conditions (sign TX-NDPA via Exhibit E unaltered; updated Exhibit A incl. AI; district-level control; COPPA consent approach; disposal deadline). AI features using student work or names are held until Phase 2 conditions are met (AI data-flow description; complete subprocessor list; DPA prevails over policy changes).
+- Wrote `deliverables/3-privacy-officer-memo.md`: recommendation and rationale, summary, top risks F1–F4, eight conditions mapped to findings, and next steps. Neutral wording checked.
+- PDF export `deliverables/pdf/3-privacy-officer-memo.pdf` = **2 pages** (verified visually). First draft was 3 pages; fixed by tightening the text and setting table column widths (pandoc sizes columns from the separator-row dashes).
+
+**Next step (S12):** Polish and publish prep: audit every vendor/legal claim in the deliverables against the register (source ID + section); check disclaimers on every deliverable; export the risk assessment PDF; update the project README and the portfolio landing page; write the README "how to read this project" guide; final review by Brittany. Decide the license and GitHub account; check the keychain for CJ's login. **Push only with Brittany's OK.**
+
+**Open questions for Brittany**
+- License (CC BY 4.0 suggested); GitHub repo name and visibility; retry the FTC FAQ snapshot (S19).
