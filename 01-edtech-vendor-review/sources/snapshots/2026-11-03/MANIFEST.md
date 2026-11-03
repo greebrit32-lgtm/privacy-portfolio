@@ -23,3 +23,4 @@ Text extracted from each page (navigation and scripts stripped). SHA-256 is of t
 | S21 | S21-tx-hb2087-85R-enrolled.txt | https://capitol.texas.gov/tlodocs/85R/billtext/html/HB02087F.htm | `c8d78690a4084ecd…` |
 | S22 | S22-ed-ptac-online-educational-services-2014.txt | https://studentprivacy.ed.gov/sites/default/files/resource_document/file/Student%20Privacy%20and%20Online%20Educational%20Services%20%28February%202014%29_0.pdf | `7e8f24aead543b15…` |
 | S23 | _not stored — copyrighted (A4L, all rights reserved)_ | https://files.A4L.org/privacy/NDPA/NDPA_v2-2_STANDARD_WEB.pdf | `244f4c358d1e5f86…` |
+| S25 | S25-quizizz-dba-wayground-letter-2025-06-05.txt | https://drive.google.com/file/d/1bQeDFJRAIBWaiPpGyuWQ_PUXb7Gu8RJj/view | `89e6faf6442fa4f9…` |

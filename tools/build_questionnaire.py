@@ -5,12 +5,13 @@ Sources of truth (edit these, then re-run):
   01-edtech-vendor-review/working/requirements-matrix.md     requirements, basis, basis type
   01-edtech-vendor-review/working/questionnaire-rubric.md    questions, score levels, weights
   01-edtech-vendor-review/sources/source-register.md         source list
+  01-edtech-vendor-review/working/evidence-notes.md          answers (evidence, source, score, follow-up)
 
 Output:
   01-edtech-vendor-review/deliverables/1-vendor-questionnaire.xlsx
 
-Safe to re-run: evidence already entered in the answer columns of an existing
-workbook is carried over by question ID.
+Safe to re-run: answers typed directly into an existing workbook are carried over
+by question ID; rows present in evidence-notes.md take precedence.
 
 Usage:
   .venv/bin/python tools/build_questionnaire.py
@@ -30,6 +31,9 @@ PROJ = ROOT / "01-edtech-vendor-review"
 MATRIX = PROJ / "working" / "requirements-matrix.md"
 RUBRIC = PROJ / "working" / "questionnaire-rubric.md"
 REGISTER = PROJ / "sources" / "source-register.md"
+EVIDENCE = PROJ / "working" / "evidence-notes.md"
+EVIDENCE_COLS = ["What the public documents say", "Source ID + section", "Score", "Score status",
+                 "Follow-up question for vendor", "Notes"]
 OUT = PROJ / "deliverables" / "1-vendor-questionnaire.xlsx"
 
 DISCLAIMER = ("Independent educational exercise, based only on public documents. Not legal advice. "
@@ -113,6 +117,23 @@ def parse_register():
     return rows
 
 
+def parse_evidence():
+    """Answer columns from working/evidence-notes.md (Markdown wins over the workbook)."""
+    if not EVIDENCE.exists():
+        return {}
+    rows = {}
+    for line in EVIDENCE.read_text(encoding="utf-8").splitlines():
+        if re.match(r"^\| D\d+\.\d+ \|", line):
+            c = table_cells(line)
+            if len(c) != 7:
+                sys.exit(f"evidence-notes.md row {c[0]}: expected 7 columns, found {len(c)}")
+            rows[c[0]] = {k: (None if strip_md(v) in ("", "—") else strip_md(v))
+                          for k, v in zip(EVIDENCE_COLS, c[1:])}
+            if rows[c[0]]["Score"] not in (None, "A", "P", "D", "NF", "N/A"):
+                sys.exit(f"evidence-notes.md row {c[0]}: invalid score {rows[c[0]]['Score']!r}")
+    return rows
+
+
 def existing_answers():
     """Carry over answer columns from a previously built workbook, keyed by ID."""
     if not OUT.exists():
@@ -139,6 +160,9 @@ def build():
     questions, weights, levels = parse_rubric()
     register = parse_register()
     saved = existing_answers()
+    evidence = parse_evidence()
+    for qid, rec in evidence.items():
+        saved.setdefault(qid, {}).update(rec)
 
     problems = [f"{r['id']}: no question in rubric" for r in reqs if r["id"] not in questions]
     problems += [f"{r['id']}: basis type '{r['type']}' has no weight" for r in reqs if r["type"] not in weights]
@@ -282,7 +306,8 @@ def build():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     wb.save(OUT)
     print(f"Wrote {OUT.relative_to(ROOT)}: {len(reqs)} questions, {len(domains)} domains, "
-          f"{len(register)} sources, {len(saved)} answered rows carried over")
+          f"{len(register)} sources, {len(evidence)} rows from evidence-notes.md, "
+          f"{len(set(saved) - set(evidence))} other answered rows carried over")
 
 
 if __name__ == "__main__":

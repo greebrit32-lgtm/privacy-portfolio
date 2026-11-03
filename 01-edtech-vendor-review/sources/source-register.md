@@ -17,6 +17,7 @@ Every factual claim in the deliverables cites a source ID from this table. Snaps
 | S09 | Wayground ISO Certification | Wayground Help Center | https://help.wayground.com/support/solutions/articles/158000404013-wayground-iso-certification | Updated 4 Nov 2025 | 2026-11-03 | [S09](snapshots/2026-11-03/S09-iso-certification.txt) | Security / trust |
 | S10 | Deploy Wayground AI for Your School or District | Wayground Help Center | https://help.wayground.com/support/solutions/articles/158000453414-deploy-wayground-ai-for-your-school-or-district | Updated 15 Jun 2026 | 2026-11-03 | [S10](snapshots/2026-11-03/S10-deploy-wayground-ai.txt) | Help article (AI feature) |
 | S11 | Create Quizzes, Lessons and more with Wayground AI | Quizizz Inc. (DBA Wayground) | https://wayground.com/quizizz-ai | No date shown on page | 2026-11-03 | [S11](snapshots/2026-11-03/S11-wayground-ai-product-page.txt) | Marketing page (AI feature) |
+| S25 | Letter confirming DBA "Wayground" (Quizizz Inc. remains legal entity) | Quizizz Inc. | https://drive.google.com/file/d/1bQeDFJRAIBWaiPpGyuWQ_PUXb7Gu8RJj/view (linked from S08) | Dated June 5, 2025 | 2026-11-03 | [S25](snapshots/2026-11-03/S25-quizizz-dba-wayground-letter-2025-06-05.txt) | Vendor letter |
 
 ## Agreements in public registries (primary)
 

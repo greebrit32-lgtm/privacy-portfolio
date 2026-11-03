@@ -97,3 +97,26 @@
 
 **Open questions for Brittany**
 - None new. Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
+
+## S8 — 2026-11-03 — Evidence pass, D1–D6 ✅ (scores PROPOSED)
+**Done**
+- Read the full current policy (S01) and compared key sentences with the Quizizz-era policy (S14). Read the AI pages (S10, S11), the subprocessor list (S05), the agreements page (S06), the rebrand article (S08), and the terms (S02). Mapped the scanned TX-NDPA (S12) clauses by hand.
+- Added **S25**: the vendor's DBA letter dated 2025-06-05, linked from S08.
+- Wrote `working/evidence-notes.md`: 22 evidence rows (D1.1–D6.5), key observations, and an S12 clause map. All scores are **PROPOSED**.
+- Updated `tools/build_questionnaire.py` to load evidence-notes.md (Markdown wins over the workbook) and validate scores. Rebuilt the .xlsx.
+
+**Key observations (facts only)**
+1. The S01 §5.2 AI text matches S14 (effective 2024-12-10). New since then: the ISO 27001 and SOC 2 Type II references.
+2. AI provider names differ across S01, S05, S10, and S11 (OpenAI/Anthropic; Portkey/Azure/GCP/AWS; GPT-5; Pangram).
+3. S01 says no personal data goes to AI platforms. S10 says the AI extension reads rosters and student submissions (deleted within 72 hours). The documents don't reconcile these.
+4. S12 Exhibit A (products covered) is blank or illegible in the public scan. Exhibit B as executed doesn't check "Student work" or "Student Name."
+
+**Proposed domain scores (if all PROPOSED scores are accepted):** D1 100%, D2 83%, D3 69%, D4 91%, D5 65%, D6 70%.
+
+**Next step (S9):** Evidence pass D7–D12 (S12 Art. V, Exhibits F–G; breach, retention, rights, COPPA consent, agreements/legacy). Then Brittany confirms or changes all scores.
+
+**Open questions for Brittany**
+- **Scoring frame:** score with the TX-NDPA terms available via Exhibit E (recommended), with "Policy only" in Notes? Or score on the policy alone?
+- **D6.2:** P or D?
+- Review the 22 PROPOSED scores (in `working/evidence-notes.md` or the .xlsx).
+- Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
