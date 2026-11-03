@@ -58,7 +58,7 @@
 **Next step (S5):** Draft the requirements matrix: about 12 review domains (e.g., data collection and minimization, use limits, advertising and profiling, AI and model training, subprocessors, security, breach notice, retention and deletion, parent and student rights, COPPA consent, school-official/direct control, legacy agreement coverage). Each requirement cites S16–S23.
 
 **Open questions for Brittany**
-- Texas statute history: the secondary mirror (S24) shows no amendments to §§32.151–.157 since 2017, as of 2025-05-26. **Still needed:** check the official site for any "Amended by Acts 2025" line (S20).
+- ~~Texas statute history~~ **Resolved 2026-11-03:** Brittany checked the official site. §§32.151–.157 have no amendments since H.B. 2087 (2017), including none from 2025. Cite as: Tex. Educ. Code §§32.151–.157 [S20], text as enacted [S21].
 - Verify the COPPA compliance date in S18 (the DATES section of the Federal Register notice).
 - Retry the Internet Archive snapshot of the FTC FAQ (S19) later. It was rate-limited today.
 - Still open: repo license; check the keychain for CJ's GitHub login before the first push.
