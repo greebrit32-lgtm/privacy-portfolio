@@ -10,6 +10,8 @@ studying for CIPP/US and Security+). Three projects: 01 EdTech vendor review, 02
   not even "anonymized" real records.
 - Fictional organizations (e.g., the district) must be clearly labeled fictional and must not
   share a name with a real district.
+- Data inventories and data maps list **types** of data (e.g., "precise geolocation"), never
+  sample records. If an example helps, make it obviously synthetic (e.g., "User A").
 
 ## Sourcing rules
 - Every factual claim about a real vendor or about the law cites a source URL and the date
@@ -50,7 +52,7 @@ studying for CIPP/US and Security+). Three projects: 01 EdTech vendor review, 02
 ## Working style
 - Brittany works in 30–60 minute sessions. Each session has one clear goal and ends at a
   stopping point with a commit and an entry in `session-log.md` (done / next step / open questions).
-- At session start, read the project's `session-log.md` and pick up from "Next step."
-  The full session plan is in `01-edtech-vendor-review/README.md`.
+- At session start, read the current project's `session-log.md` and pick up from "Next step."
+  Each project's full session plan is in its own `README.md`.
 - Keep scope small; propose before building anything large.
 - Commit at the end of each session, never push without asking.
