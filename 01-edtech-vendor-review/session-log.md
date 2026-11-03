@@ -59,6 +59,17 @@
 
 **Open questions for Brittany**
 - ~~Texas statute history~~ **Resolved 2026-11-03:** Brittany checked the official site. §§32.151–.157 have no amendments since H.B. 2087 (2017), including none from 2025. Cite as: Tex. Educ. Code §§32.151–.157 [S20], text as enacted [S21].
-- Verify the COPPA compliance date in S18 (the DATES section of the Federal Register notice).
 - Retry the Internet Archive snapshot of the FTC FAQ (S19) later. It was rate-limited today.
 - Still open: repo license; check the keychain for CJ's GitHub login before the first push.
+
+## S5 — 2026-11-03 — Requirements matrix (draft) ✅
+**Done**
+- Drafted `working/requirements-matrix.md`: 12 domains and 40 requirements, each citing a specific clause (FERPA, COPPA, Tex. Educ. Code §§32.151–.156, FTC FAQ §N, NDPA v2.2) and labeled by basis type (Law / Guidance / Contract benchmark / Derived).
+- Verified from S18: COPPA amendments effective 2025-06-23, **compliance date 2026-04-22**. The FTC did **not** finalize the ed-tech/school-authorization provisions and continues to rely on existing guidance.
+- Read each cited clause in the source text before citing it. S12 (scanned) references are marked "as viewed," with exhibit headings to confirm in S8.
+
+**Next step (S6):** Design the questionnaire and scoring rubric: turn each requirement into a question, define the score levels (e.g., Addressed / Partially / Not addressed / Not found in public documentation), and decide weighting. Brittany approves the rubric.
+
+**Open questions for Brittany** (see the end of the matrix)
+- Domain count and merges; framing of D6 (AI) as "Derived"; whether to add Texas breach-notice law (Bus. & Com. Code §521.053); confirm PPRA stays out of scope.
+- Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
