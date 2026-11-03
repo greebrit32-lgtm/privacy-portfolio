@@ -84,3 +84,16 @@
 
 **Open questions for Brittany**
 - None new. Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
+
+## S7 — 2026-11-03 — Build the questionnaire .xlsx ✅
+**Done**
+- Wrote `tools/build_questionnaire.py`. It reads the matrix, the rubric, and the source register (Markdown is the single source of truth) and builds `deliverables/1-vendor-questionnaire.xlsx`.
+  - Sheets: Instructions (with disclaimer), Questionnaire (41 rows; Score and Score-status dropdowns; point formulas; yellow answer columns), Domain Scores (formulas; % per domain; no overall score), Rubric, Sources (24).
+  - The build fails with a clear message if a requirement has no question or a basis type has no weight.
+  - Rebuilding keeps any answers already entered (matched by question ID).
+- **Verified:** filled a scratch copy with sample scores and recalculated it in Numbers. Results matched the hand calculation (D1 = 9/16 = 56%; N/A excluded in D2 → 4/6 = 67%; unscored domain shows "not yet scored"). Rebuild carry-over was tested, then the deliverable was rebuilt blank.
+
+**Next step (S8):** Evidence pass, domains D1–D6. For each question: quote or paraphrase what the public documents say, cite source + section, propose a score (PROPOSED), and draft the vendor follow-up. Includes the S14-vs-S01 comparison (Quizizz-era vs. current policy) for AI and legacy coverage, and mapping S12 clause numbers by hand.
+
+**Open questions for Brittany**
+- None new. Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
