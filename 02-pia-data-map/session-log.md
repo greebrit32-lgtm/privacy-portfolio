@@ -64,3 +64,16 @@
 
 **Open questions for Brittany**
 - Still pending: manual check of Ch. 541 "Amended by" lines (S02); push on hold.
+
+## S5 — 2026-11-03 — Data inventory filled in ✅ (sensitivity PROPOSED)
+**Done**
+- Read the remaining TDPSA text needed for citations: consent (incl. exclusions for general terms and dark patterns), sale exclusions, targeted-advertising exclusions, pseudonymous data, opt-out rights §541.051(b)(5), privacy notice §541.102 (incl. the required "NOTICE: We may sell your sensitive personal data."), processor contracts §541.104, deidentified/pseudonymous data §541.106.
+- Wrote `working/inventory-notes.md`: 24 analyst rows (sensitivity, TDPSA category, §541.105 triggers, consent/legal basis, FIPPs, notes), each cited to S01/S05–S07. Rebuilt the .xlsx.
+- Proposed result: **8 High / 10 Medium / 6 Low** sensitivity. **7 types are Texas "sensitive data"**: precise location (DE-07, DE-08), location history (DE-09), interests/inferences/check-ins/segments that can reveal religion or sexuality (DE-11, DE-12, DE-14, DE-21).
+- Flagged for S7: default-on background location vs. the "no dark patterns" consent definition; pre-checked marketing box; 24-month location history; segments described as "anonymous" but device-linked (§541.001(12)); organizer marketing use beyond the §541.001(28)(B) sale exclusion; coarse-location precision vs. the 1,750-ft definition; self-declared age gate.
+
+**Next step (S6):** Data-flow map (Mermaid) built from the Data x Recipients matrix: users → app → Mesquite Lantern systems → processors vs. third parties, with sensitive flows highlighted. Must render on GitHub, plus a PDF.
+
+**Open questions for Brittany**
+- Sensitivity scale and calls (asked at the end of S5).
+- Still pending: manual check of Ch. 541 "Amended by" lines; push on hold.
