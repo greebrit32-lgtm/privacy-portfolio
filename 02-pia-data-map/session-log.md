@@ -41,3 +41,14 @@
 **Open questions for Brittany**
 - **5-minute manual check:** open https://statutes.capitol.texas.gov/Docs/BC/htm/BC.541.htm and note any "Amended by" lines under §§541.001–541.205, especially 2025 changes (S02).
 - Push of Project 02 commits: still on hold.
+
+## S3 — 2026-11-03 — System description ✅
+**Done**
+- Drafted `working/system-description.md`, the fictional product team's pre-review design: 12 systems and recipients (SYS-1–6, TP-1–6), 23 data-element **types** (DE-01–DE-23), and a feature-by-feature table (what is collected and when, purpose, destination, proposed retention, notice/choice as designed).
+- Flagged 8 design choices for the PIA: background location on by default plus 24-month history; sensitive event categories (faith, LGBTQ+, politics, health support) flowing into check-ins, profiles, and segments; audience segments sold to advertisers as "anonymous" hashed IDs; single terms checkbox and pre-checked marketing; SDK data flows with retention not reviewed; self-declared age gate; no deletion for check-ins and downstream copies; opt-out only through a web form.
+
+**Next step (S4):** Build `tools/build_inventory.py`, reusing the build-from-Markdown pattern of `build_questionnaire.py`. It reads the system description, generates `deliverables/1-data-inventory.xlsx` (one row per data element: type, source, feature, purpose, systems/recipients, retention, sensitivity, TDPSA category, legal basis/consent, notes), and leaves the analyst columns blank for S5.
+
+**Open questions for Brittany**
+- Review the flagged design choices. Any to add or remove? (It's fictional, so these are teaching choices.)
+- Still pending: manual check of Ch. 541 "Amended by" lines (S02); push on hold.
