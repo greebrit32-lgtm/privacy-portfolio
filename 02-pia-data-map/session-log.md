@@ -52,3 +52,15 @@
 **Open questions for Brittany**
 - Review the flagged design choices. Any to add or remove? (It's fictional, so these are teaching choices.)
 - Still pending: manual check of Ch. 541 "Amended by" lines (S02); push on hold.
+
+## S4 — 2026-11-03 — Data inventory generator ✅
+**Done**
+- Made recipients explicit in `working/system-description.md`: new "Systems and recipients" column per data element (so the data map shows only real flows, e.g., card data → payment processor only). Added **DE-24 coarse location** (derived; sent to the ad network in F-7 and used in F-8 segments).
+- Wrote `tools/build_inventory.py` (reuses the Project 01 helpers). It builds `deliverables/1-data-inventory.xlsx` with these sheets: Instructions; Inventory (24 rows: design columns from the system description plus 6 yellow analyst columns with Sensitivity / TDPSA-category dropdowns); **Data x Recipients** matrix (24 × 12, third-party cells shaded); Features; Systems & Recipients; Sources.
+- Validation: the build stops on unknown recipients, features, or data IDs, or on invalid dropdown values (tested). Expands ID ranges like "DE-01–06" (a bug caught in testing: DE-03–06 were initially unlinked).
+- CLAUDE.md output formats now mention the inventory builder.
+
+**Next step (S5):** Fill in `working/inventory-notes.md` (analyst columns for DE-01–DE-24): sensitivity, TDPSA category, §541.105 trigger(s), consent/legal basis, FIPPs concerns, notes. All cited to S01–S07. Sensitivity calls are **PROPOSED — Brittany to decide**.
+
+**Open questions for Brittany**
+- Still pending: manual check of Ch. 541 "Amended by" lines (S02); push on hold.
