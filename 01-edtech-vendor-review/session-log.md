@@ -43,3 +43,22 @@
 
 **Open questions for Brittany**
 - Still open: repo license; checking the keychain for CJ's GitHub login before the first push.
+
+## S4 — 2026-11-03 — Collect legal and benchmark sources ✅
+**Done**
+- Registered S16–S23: FERPA regulations (eCFR), the COPPA Rule (eCFR), the FTC's 2025 COPPA amendments (90 FR 16918, effective 2025-06-23), the FTC COPPA FAQ §N (schools), Tex. Educ. Code Ch. 32 Subch. D (codified URL plus enacted HB 2087), ED/PTAC 2014 online-services guidance, and the SDPC NDPA v2.2. TX-NDPA v1r6 text = S12.
+- Saved snapshots for public-domain government texts. The copyrighted NDPA (S23) is registered by URL and fingerprint only.
+- Filled in the study-note citations for COPPA (child under 13, school consent via FTC guidance) and FERPA (school-official exception, three conditions). Added a note on regulation vs. guidance.
+
+**Worth noting for later sessions**
+- The COPPA amendments took effect 2025-06-23, twelve days after the Quizizz e-signature on S12 (06/11/2025).
+- The NDPA v2.2 benchmark contains no AI-specific terms.
+- TX-NDPA v1r6 and the national NDPA v2.2 are different versions.
+
+**Next step (S5):** Draft the requirements matrix: about 12 review domains (e.g., data collection and minimization, use limits, advertising and profiling, AI and model training, subprocessors, security, breach notice, retention and deletion, parent and student rights, COPPA consent, school-official/direct control, legacy agreement coverage). Each requirement cites S16–S23.
+
+**Open questions for Brittany**
+- **Quick manual check, about 5 minutes:** open https://statutes.capitol.texas.gov/Docs/ED/htm/ED.32.htm in your browser, scroll to Sec. 32.151–32.157, and note the "Added by / Amended by" lines under each section. That tells us whether the law changed after 2017 (S20).
+- Verify the COPPA compliance date in S18 (the DATES section of the Federal Register notice).
+- Retry the Internet Archive snapshot of the FTC FAQ (S19) later. It was rate-limited today.
+- Still open: repo license; check the keychain for CJ's GitHub login before the first push.

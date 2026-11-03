@@ -18,3 +18,8 @@ Text extracted from each page (navigation and scripts stripped). SHA-256 is of t
 | S12 | _not stored — contains signatories' personal data_ | https://sdpc.a4l.org/agreements/2025-07-09_3816_918_signed_agreement_file.pdf | `902c85addf5e9084…` |
 | S14 | S14-quizizz-privacy-policy-archived-2025-06-03.txt | https://web.archive.org/web/20250603032215/https://quizizz.com/privacy | `02a4a296493408ea…` |
 | S15 | S15-quizizz-terms-archived-2025-05-30.txt | https://web.archive.org/web/20250530035105/https://quizizz.com/tos | `571dc0ac33f6563c…` |
+| S16 | S16-34-cfr-part-99-ferpa.txt | https://www.ecfr.gov/api/versioner/v1/full/2026-10-30/title-34.xml?part=99 | `5215a3f303ea41cb…` |
+| S17 | S17-16-cfr-part-312-coppa.txt | https://www.ecfr.gov/api/versioner/v1/full/2026-10-30/title-16.xml?part=312 | `5a29d13e4512092a…` |
+| S21 | S21-tx-hb2087-85R-enrolled.txt | https://capitol.texas.gov/tlodocs/85R/billtext/html/HB02087F.htm | `c8d78690a4084ecd…` |
+| S22 | S22-ed-ptac-online-educational-services-2014.txt | https://studentprivacy.ed.gov/sites/default/files/resource_document/file/Student%20Privacy%20and%20Online%20Educational%20Services%20%28February%202014%29_0.pdf | `7e8f24aead543b15…` |
+| S23 | _not stored — copyrighted (A4L, all rights reserved)_ | https://files.A4L.org/privacy/NDPA/NDPA_v2-2_STANDARD_WEB.pdf | `244f4c358d1e5f86…` |
