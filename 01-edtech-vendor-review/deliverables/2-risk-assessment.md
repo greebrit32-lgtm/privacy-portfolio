@@ -47,7 +47,7 @@ Scores measure how fully the public documents address each requirement, assuming
 ## 3. Findings table
 
 | ID | Finding | Requirement (basis) | Questionnaire items | Likelihood | Impact | Risk rating |
-|----|---------|---------------------|---------------------|-----------|--------|-------------|
+|---|------------------------------|--------------------------|-------------------|---------|-------|-------|
 | F1 | Public documents describe AI handling of student data differently | Use, disclosure, and subprocessor transparency (derived from FERPA §99.33, Tex. Educ. Code §32.153, NDPA §2.3, §4.2) | D6.1, D6.2, D2.2 | Medium–High | High | **High** |
 | F2 | TX-NDPA coverage of post-2025 AI features not confirmed | DPA scope and products covered (NDPA §1.2, Exh. A; TX-NDPA Exh. E) | D12.3, D3.1 | Medium | High | **High** |
 | F3 | Key protections exist only in the DPA; teachers can start without one | FERPA school-official exception §99.31(a)(1)(i)(B); FTC COPPA FAQ §N.3 | D11.4; policy-only results for D1.1, D3.3, D4.2, D6.4, D8.1, D8.2, D9.2, D10.3, D12.1 | High | High | **High** |

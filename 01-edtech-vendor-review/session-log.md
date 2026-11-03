@@ -165,3 +165,17 @@
 
 **Open questions for Brittany**
 - License (CC BY 4.0 suggested); GitHub repo name and visibility; retry the FTC FAQ snapshot (S19).
+
+## S12 — 2026-11-03 — Citation audit, polish, publish prep ✅ (publish pending Brittany's OK)
+**Done**
+- **Citation audit:** every source ID used in the deliverables exists in the register. Of 199 quoted phrases, 156 match the snapshot text exactly, 31 are from the scanned TX-NDPA (S12; transcribed from page images), and 12 flagged items were checked by hand (S12 quotes, one label, one nested-quote style). Result: no unsupported quotations.
+- **Disclaimers:** present in every Markdown file in the project and in the .xlsx Instructions sheet.
+- **PDFs:** risk assessment exported (7 pages; findings-table column widths fixed). Memo PDF is 2 pages (S11).
+- **READMEs:** project README rewritten as a "start here" guide (findings, method, ground rules, AI-assistance disclosure, session plan). Landing page updated: Project 01 Complete; "Skills demonstrated" filled in.
+- **Pre-publish privacy scan:** no signatory names, emails, or IPs from S12; no CJ email; no employer references in tracked files or the .xlsx. Git history author = noreply address only.
+- **Keychain check:** the saved github.com credential is account ID 285196955 = Brittany (greebrit32-lgtm), not CJ. `gh` is logged in as greebrit32-lgtm.
+
+**Open questions for Brittany**
+- F1 likelihood reads "Medium–High," which is not a level in the approved 3×3 method (rating is High either way).
+- License; GitHub repo name and visibility; permission to create the repo and push.
+- Retry the FTC FAQ snapshot (S19) later. Optional.
