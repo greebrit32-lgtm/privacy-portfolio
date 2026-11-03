@@ -120,3 +120,24 @@
 - ~~D6.2~~ **Decided:** P.
 - Review the 22 PROPOSED scores (in `working/evidence-notes.md` or the .xlsx).
 - Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
+
+## S9 — 2026-11-03 — Evidence pass, D7–D12 ✅ (scores PROPOSED)
+**Done**
+- Read the remaining TX-NDPA (S12) pages: Art. V (security, audits, 72-hour breach notice), Art. VI–VII (general offer, termination, priority of agreements, successors), Exhibit E (general offer and withdrawal terms), and the Texas addendum (p. 21–22). Clause map extended.
+- Added 19 evidence rows (D7.1–D12.4) and observations 7–9 to `working/evidence-notes.md`. **All 41 questions now have evidence.** Rebuilt the .xlsx.
+- Verified domain scores by recalculating the workbook in Numbers.
+
+**Proposed domain scores (all PROPOSED):** D1 100% · D2 83% · D3 69% · D4 91% · D5 65% · D6 70% · D7 81% · D8 100% · D9 69% · D10 100% · D11 65% · D12 75%.
+
+**New observations (facts only)**
+- Exhibit E lets the provider withdraw the offer on a "material change in the services and products" or three years after signing (06/11/2025). A subscribing district is bound for the term of the originating DPA, which isn't visible.
+- The Texas addendum extends DPA protections to "all data provided to or collected by the Provider."
+- No written retention policy for children's data with deletion timeframes found (COPPA §312.10 compliance date 2026-04-22). TX-NDPA v1r6 gives no post-termination deadline.
+- Many protections exist **only** in the TX-NDPA (breach 72 hours and reimbursement, 60-day deletion on request, DPA priority, 45-day access support). Policy-only results are recorded in Notes.
+
+**Next step (S10):** Brittany confirms or changes the 41 scores. Then draft the risk assessment and findings table (`deliverables/2-risk-assessment.md`): select findings from P/D/NF items, write requirement / what the docs say / gap / recommendation, and Brittany assigns risk ratings.
+
+**Open questions for Brittany**
+- **D12.4:** D or P?
+- Confirm or change the 41 PROPOSED scores (evidence-notes.md or the .xlsx).
+- Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
