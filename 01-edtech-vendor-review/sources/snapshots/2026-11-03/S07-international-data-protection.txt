@@ -1,0 +1,113 @@
+Source: https://waygroundorg.freshdesk.com/support/solutions/articles/158000404014-international-data-protection-at-wayground
+Accessed: 2026-11-03
+Raw SHA-256: 91658eeb193608b841b3513bd0cb26974421da51a981b5cdaffca746bfd3d6fd
+
+International Data Protection at Wayground :
+
+International Data Protection at Wayground
+
+Updated 22 Aug 2025
+
+2 min read
+
+Wayground is committed to safeguarding user data and adhering to international data protection laws. Our far-reaching operations demand compliance with various data protection regulations to ensure the privacy and security of our users worldwide. This article provides an overview of how we comply with data protection laws in different jurisdictions.
+European Union: General Data Protection Regulation (GDPR)
+To read more about GDPR Compliance at Wayground, click  here .
+Australia: Privacy Act 1988
+Wayground complies with the Privacy Act 1988, which governs the handling of personal information in Australia. Our adherence to this act includes:
+Transparency: We provide clear communication about data collection, usage, and disclosure practices.
+Access and Correction: Users can access and correct their personal information through our platform.
+Data Security:  We implement robust measures to protect personal data from misuse, interference, loss, unauthorized access, and disclosure.
+Canada: Personal Information Protection and Electronic Documents Act (PIPEDA)
+Under PIPEDA, Wayground ensures that personal information is handled with care. Our compliance involves:
+Consent: Obtaining user consent before collecting personal information.
+Accountability: Designating individuals responsible for compliance with PIPEDA.
+Data Accuracy: Ensuring personal information is accurate, complete, and up-to-date.
+Brazil: General Data Protection Law (LGPD)
+In compliance with LGPD, Wayground protects personal data and ensures user rights. Key elements include:
+Data Subject Rights: Rights to access, correct, delete, and port personal data.
+Legal Basis for Processing:  Collecting and processing data based on user consent or other legal grounds.
+Data Protection Officer (DPO): Appointing a DPO to oversee LGPD compliance.
+India: Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011
+Wayground follows India's IT Rules to ensure the protection of sensitive personal data. Important aspects include:
+Consent: Obtaining user consent for data collection and usage.
+Disclosure: Informing users about data collection purposes and sharing practices.
+Grievance Redressal: Providing mechanisms for addressing user complaints and grievances.
+Commitment to Global Data Security
+Wayground is dedicated to maintaining a secure platform and protecting user data in compliance with various international regulations. Our privacy practices are designed to provide transparency, security, and user control, ensuring the trust and confidence of our global user base.
+
+For more detailed information, please refer to our  Privacy Policy . For any further inquiries or assistance, please contact us at privacy@wayground.com.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+On this page
+
+You may like to read -
+
+GDPR Compliance at Wayground
+
+State and District Privacy Agreements
+
+Add Wayground as a Trusted App in Google Workspace for Education
+
+Wayground ISO Certification
+
+Articles in this folder -
+
+Quizizz is now Wayground: What’s Changing and What’s Not
+
+Wayground Refund Policy
+
+Wayground ISO Certification
+
+Ask Support bot →
+
+Print
+
+© 2026 Quizizz Inc. (DBA Wayground)
+
+support@wayground.com
+
+X
+
+0 of 0

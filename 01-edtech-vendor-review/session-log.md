@@ -26,3 +26,19 @@
 - Review `scenario.md`. Are the size and grade span (about 12,000 students, PK–12) OK?
 - License for the public repo (CC BY 4.0 suggested), or none. Still open from S1.
 - Before the first push (S12): check that the Mac keychain doesn't still hold CJ's GitHub login, so pushes go through `greebrit32-lgtm`.
+
+## S3 — 2026-11-03 — Collect vendor documents ✅
+**Done**
+- Registered 11 vendor documents (S01–S11), 1 signed agreement from the SDPC registry (S12), and 1 secondary trade-press source (S13). Dated text snapshots and SHA-256 fingerprints are in `sources/snapshots/2026-11-03/`.
+- S12 (the Texas TX-NDPA signed with "Quizizz") is **not stored in the repo** because it contains signatories' personal data. It is registered by URL and fingerprint.
+
+**Early observations to analyze in S8–S9 (facts only, no ratings yet)**
+- Legacy question: S08 says "Data privacy and legal agreements remain in place. Quizizz Inc. is still the legal entity." S06 says Wayground "has signed off on the Texas Student Data Privacy Agreement" and links to S12, a TX-NDPA v1r6 with the provider named "Quizizz." The provider e-signature log is dated 06/11/2025, before the rebrand reported for 06/24/2025 (S13, secondary).
+- AI question: S05 has a separate "AI service providers" table (Portkey, Microsoft Azure, Google Cloud, AWS). S01 mentions AI and LLMs. S10 describes the Wayground AI Chrome extension as teacher-only.
+- S01 still links to `support.quizizz.com` URLs. One of them redirects to the Help Center home page instead of the subprocessor article.
+
+**Next step (S4):** Collect the legal and benchmark sources: FERPA (34 CFR Part 99, esp. §99.31(a)(1)), COPPA Rule (16 CFR Part 312) and FTC guidance on schools, TEC Ch. 32 Subch. D, and the SDPC NDPA and TX-NDPA templates (blank, from SDPC/TXSPA). Fill in the study-note citations.
+
+**Open questions for Brittany**
+- Should S8 compare against archived Quizizz-era versions of the privacy policy, or only current documents plus the signed agreement?
+- Still open: repo license; checking the keychain for CJ's GitHub login before the first push.

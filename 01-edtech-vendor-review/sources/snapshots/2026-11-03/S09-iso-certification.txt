@@ -1,0 +1,111 @@
+Source: https://help.wayground.com/support/solutions/articles/158000404013-wayground-iso-certification
+Accessed: 2026-11-03
+Raw SHA-256: 8ef4d68e4e0c8d43687f7100754803ce35a14249a307b7490b6b35253643efff
+
+Wayground ISO Certification :
+
+Wayground ISO Certification
+
+Updated 4 Nov 2025
+
+2 min read
+
+Overview
+At Wayground, we prioritize the security and privacy of our users' data. To demonstrate our commitment to maintaining the highest standards of information security, we have achieved ISO/IEC 27001:2022 certification. This globally recognized standard ensures that our Information Security Management System (ISMS) is robust and effective in managing and protecting information assets.
+
+What is ISO/IEC 27001:2022?
+ISO/IEC 27001:2022 is an international standard for managing information security. It provides a framework for establishing, implementing, maintaining, and continually improving an ISMS. The standard helps organizations protect their information assets by addressing people, processes, and technology.
+
+Why This Matters to Users
+ISO/IEC 27001:2022 certification is crucial for several reasons:
+Achieving ISO/IEC 27001:2022 certification has several direct benefits for our users:
+Enhanced Security : Your sensitive information is comprehensively protected through stringent security measures, reducing the risk of data breaches.
+Risk Management : Potential security risks are identified and mitigated, ensuring that your data remains safe from threats.
+Compliance : We meet all legal, regulatory, and contractual requirements, giving you peace of mind that your data is handled according to global standards.
+Building Trust : Our dedication to safeguarding your data builds trust, reassuring you that your information is in safe hands.
+Continuous Improvement : Our commitment to ongoing assessment and improvement of security practices means we are always working to protect your data better.
+Our Commitment to Security
+Achieving ISO/IEC 27001:2022 certification is a testament to our dedication to maintaining the highest standards of information security. Our ISMS covers all aspects of our operations, including:
+Access Control: Ensuring only authorized personnel have access to sensitive information.
+Data Encryption:  Protecting data through encryption methods.
+Incident Management:  Responding swiftly and effectively to security incidents.
+Regular Audits: Conducting internal and external audits to ensure compliance with the standard.
+Employee Training: We provide continuous training to our employees on best practices for security.
+You can find our ISO/IEC 27001:2022 certification listed within on this  Certification and Attestation Register . You can view our certification details and the controls we continuously monitor  here .
+
+Contact Us
+If you have any questions about our ISO certification or our information security practices, please contact us at privacy@wayground.com
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+On this page
+
+You may like to read -
+
+Understanding Our Compliance with North Carolina DPI Data Integration Requirements
+
+Deploying the Wayground AI Chrome Extension
+
+All LMS Platforms You Can Integrate With Wayground
+
+State and District Privacy Agreements
+
+Articles in this folder -
+
+Quizizz is now Wayground: What’s Changing and What’s Not
+
+Wayground Refund Policy
+
+International Data Protection at Wayground
+
+Ask Support bot →
+
+Print
+
+© 2026 Quizizz Inc. (DBA Wayground)
+
+support@wayground.com
+
+X
+
+0 of 0

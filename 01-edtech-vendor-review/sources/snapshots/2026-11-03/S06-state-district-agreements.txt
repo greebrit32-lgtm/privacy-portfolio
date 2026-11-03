@@ -1,0 +1,152 @@
+Source: https://help.wayground.com/support/solutions/articles/158000404016-state-and-district-privacy-agreements
+Accessed: 2026-11-03
+Raw SHA-256: 7a562ab6fc52ece250b35134f5b0a71583819256c19b14120a5c1b5830d529ae
+
+State and District Privacy Agreements :
+
+State and District Privacy Agreements
+
+Updated 8 Oct 2026
+
+9 min read
+
+Commitment to Data Privacy
+At Wayground, we take data privacy very seriously. We adhere to federal safety and privacy legislation such as the Family Educational Rights and Privacy Act (FERPA) and the Children's Online Privacy Protection Act (COPPA).
+Additionally, we are proud members of the School Data Privacy Consortium (SDPC) and Access 4 Learning (A4L) Community, which signifies our commitment to upholding high standards of data privacy in education.
+While we strive to accommodate as many state and district-specific data privacy requirements as we can, as a small team, we may not be able to respond immediately to every request. Nonetheless, we do our best to support your district and provide resources for some of the most common state-based requests.
+Please explore this page for more information on state and district privacy agreements, and don't hesitate to reach out if you have any questions.
+Understanding Your Next Steps
+This table includes all 50 states in the U.S., outlining the best next step for each state to ensure data privacy compliance when using Wayground. If you're a district administrator, please refer to your respective state in the table below and follow the suggested action. This could be requesting an Approved Data Processing Agreement (DPA), signing an Exhibit E, or signing the Student Data Privacy Agreement (SDPA). As explained in the subsequent section, these actions are critical in aligning with state-specific data privacy requirements and ensuring a secure digital learning environment for students.
+Request Approved DPA : If your state is listed with this next step, it means that you should request the National Data Processing Agreement (NDPA) that has been approved as compliant. This is a legally binding document that outlines the responsibilities and obligations of both parties (in this case, Wayground and your district) with respect to the protection of student data.
+Sign SDPA : This means that you should sign the Student Data Privacy Agreement (SDPA) that has been approved for your state. This is a document that is used by the SDPC to ensure that all of their members are adhering to the same high standards of data privacy. This document details any specific requirements or provisions that your state has in place for the protection of personal data. You would become the ‘originator’
+Sign Exhibit E : If your state is listed with this next step, it means that you should sign Exhibit E, which is a specific part of the DPA that has been customized for your state and already been signed by another district as part of the original SDPA. In this instance, you would become a ‘subscriber’.
+State Text Best Next Step
+alabama Sign the National Data Processing Agreement (NDPA), upload it to SDPC portal and share a signed copy to privacy@wayground.com SDPA Sign
+Alaska Sign the National Data Processing Agreement (NDPA), upload it to SDPC portal and share a signed copy to privacy@wayground.com Request Approved DPA
+Arizona* Wayground has signed off on the Arizona Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Arkansas* Please sign the linked Student Data Privacy Agreement (SDPA) for your state and forward the document to privacy@wayground.com SDPA Sign
+California* Wayground complies with and helps LEAs comply with, obligations under AB 1584. We have also signed off on the California Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Colorado Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Connecticut Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Learned Platform
+Delaware Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Please go through our  Terms Of Service here
+
+Florida* Wayground has signed off on the Florida Student Data Privacy Agreement. Any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Georgia Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Hawaii Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Idaho Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Illinois* Wayground has signed off on the Illinois Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Indiana Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Iowa* Please sign the linked Student Data Privacy Agreement (SDPA) for your state and forward the document to privacy@wayground.com SDPA Sign
+Kansas Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Kentucky Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Louisiana Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Maine* Wayground has signed off on the Maine Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Maryland Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Massachusetts* Wayground has signed off on the Massachusetts Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Michigan Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Minnesota*   SDPA Sign
+Mississippi Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Missouri* Wayground has signed off on the Missouri Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Montana* Wayground has signed off on the Montana Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Nebraska Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com SDPA Sign
+Nevada Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+New Hampshire* Wayground has signed off on the New Hampshire Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+New Jersey Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com SDPA Sign
+New Mexico Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+New York   Sign Approved Data Sharing Agreement (Ed Law 2-D)
+North Carolina Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+North Dakota Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Ohio* Wayground has signed off on the Ohio Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Oklahoma* Please sign the linked Student Data Privacy Agreement (SDPA) for your state and forward the document to privacy@wayground.com SDPA Sign
+Oregon* Wayground has signed off on the Oregon Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Pennsylvania*   Sign Exhibit E
+Rhode Island* Wayground has signed off on the Rhode Island Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+South Carolina Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+South Dakota Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Tennessee* Please sign the linked Student Data Privacy Agreement (SDPA) for your state and forward the document to privacy@wayground.com SDPA Sign
+Texas* Wayground has signed off on the Texas Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Utah* Please sign the linked Student Data Privacy Agreement (SDPA) for your state and forward the document to privacy@wayground.com SDPA Sign
+Vermont* Wayground has signed off on the Vermont Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Virginia* Wayground has signed off on the Virginia Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Washington* Wayground has signed off on the Washington Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+West Virginia Request the National Data Processing Agreement (NDPA) that has been approved as compliant by emailing privacy@wayground.com Request Approved DPA
+Wisconsin* Wayground has signed off on the Wisconsin Student Data Privacy Agreement and any eligible district is welcome to subscribe and sign off on those terms by sending a countersigned copy of the exhibit E available here to privacy@wayground.com. Sign Exhibit E
+Wyoming*   SDPA Sign
+
+*Your state has an alliance with the Student Data Privacy Consortium ( SDPC ). As members, you may benefit from streamlined DPA processes. Please visit their website for more information.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+On this page
+
+You may like to read -
+
+Add Wayground as a Trusted App in Google Workspace for Education
+
+Deploy Wayground AI for Your School or District
+
+How do I change the privacy settings of my resource?
+
+Are you compliant with New York Education Law 2-D?
+
+Articles in this folder -
+
+Quizizz is now Wayground: What’s Changing and What’s Not
+
+Wayground Refund Policy
+
+Wayground ISO Certification
+
+International Data Protection at Wayground
+
+Ask Support bot →
+
+Print
+
+© 2026 Quizizz Inc. (DBA Wayground)
+
+support@wayground.com
+
+X
+
+0 of 0

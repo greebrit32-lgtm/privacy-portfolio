@@ -1,0 +1,135 @@
+Source: https://wayground.com/home/privacy-center
+Accessed: 2026-11-03
+Raw SHA-256: 51f09359119ce17235a9ce45f2d936df591e6877e2909fce292fe985e42a67c3
+
+Privacy Center | Wayground (Quizizz)
+
+For schools and districts
+
+Plans
+Library
+
+Log in
+
+Get a quote
+
+Sign up
+
+Get a Quote
+
+Enter code
+
+Log in
+
+Sign up
+
+Privacy center
+
+Your privacy, our priority
+
+Learn how we respect your privacy and protect your data.
+
+Our commitment
+Millions of people around the world use Wayground to learn. We know that trust is a huge part of every learner’s journey, so we take the trust and privacy of our educators, students, and families seriously every step of the way.
+
+We are committed to transparency and putting you in control of how we use your information, so you can navigate Wayground with peace of mind.
+
+We are dedicated to this work and guided by three core principles:
+
+Minimal data collection
+We don’t ask you for personal information unless we truly need it.
+
+Your data, your control
+We aim to make it as simple as possible for you to control what’s visible to the public, seen by search engines, kept private, and permanently deleted.
+
+Time-limited retention
+We don’t keep your personal information longer than is necessary to provide our services to you.
+
+Privacy assurance for every user
+
+We understand that privacy is not a one-size-fits-all concept. We have taken numerous precautions to ensure your data is protected and you have a safe learning experience. You can learn more about them here:
+
+Explore privacy policy
+
+Teachers & school leaders
+We comply with FERPA and COPPA and will work with your organization to meet relevant state and regional privacy commitments. We also support data interoperability with leading authentication and rostering systems to reduce data collection.
+
+Parents and guardians
+We prioritize child data protection. We respect the consent of individuals under 13 and give you the power to control your information for added security and peace of mind.
+
+State and regional privacy agreements
+Are you looking for the best next steps to get Wayground into your classroom? Whether you're seeking to formalize a data privacy agreement or to better understand how we align with your specific state or district, we've got you covered.
+
+View all
+
+International Compliance and GDPR
+While we ensure compliance within the United States, we also make significant efforts to adhere to international regulations. We are committed to complying with GDPR, ensuring that your personal data is processed securely and in accordance with these regulations. Read more about how we comply with GDPR here. To learn more about how we comply with other international regulations like those in Canada, Australia, Brazil, and more, click here.
+
+ISO 27001 Certification
+Wayground is ISO/IEC 27001:2022 certified. This certification demonstrates our adherence to international standards for information security management, ensuring that we have robust policies, procedures, and controls in place to manage risks and safeguard your data. This global recognition underscores our dedication to maintaining the highest level of data protection for our users. Learn more by reading our help article.
+
+Got a question?
+
+What student data does Wayground collect?
+
+Accounts are not a prerequisite to using Wayground, but are required to access some features and to save progress over time. If a student account is created, saved information will include things like an email address, a parent or guardian email address (in limited cases), first name, and last name.
+
+2025-06-18
+
+How is my data shared? Does Wayground ever sell user data?
+
+Data is never sold or rented to third parties. Wayground only shares your personal information when it is necessary to offer the service, comply with law, or with your permission. For example, it may be shared with limited third-party services essential for Wayground's operation, but these services can't use your information for other purposes. A comprehensive list of service providers can be found here.
+
+2025-06-18
+
+How long is my data retained?
+
+We will retain your information for as long as your account is active or as needed to provide you services. In most cases, we delete user accounts if they have been inactive for more than twelve months. If you have an account, you can update or delete it any time at wayground.com/settings
+
+2025-06-18
+
+Is my data encrypted?
+
+Yes, we use industry-standard encryption to protect your data both in transit and at rest. This ensures that your personal information remains secure and private.
+
+2025-06-18
+
+How does Wayground ensure accessibility compliance?
+
+Wayground is committed to ensuring that our platform is accessible to all users, including those with disabilities. We follow the Voluntary Product Accessibility Template (VPAT) guidelines, which document our compliance with accessibility standards such as Section 508 of the Rehabilitation Act and the Web Content Accessibility Guidelines (WCAG). Our VPAT details the ways in which Wayground meets these standards and is available upon request here. For more information, please visit our accessibility and inclusion statement.
+
+2025-06-18
+
+How can I manage my data?
+
+You have the right to delete, access, update, correct errors in, and export for transfer any of your personal information. You may delete your account or update your information at any time by visiting wayground.com/settings
+
+2025-06-18
+
+How does Wayground protect student data?
+
+Engaging every student starts with trust. We use technical, operational, and logical security measures to keep student data safe. Learn about these measures here.
+
+2025-06-18
+
+Can parents and guardians manage their child's data on Wayground?
+
+Parents and guardians can log in to their child’s account and have the right to delete or update their child’s information at any time by visiting wayground.com/settings
+
+2025-06-18
+
+Does Wayground AI interact with student data?
+
+Wayground AI solely uses the inputs teachers provide to generate content for your lessons and quizzes. Just like the rest of Wayground, we keep your and your students' personal data untouched. OpenAI does not use any of your personal data for training its models. We retain the content you input solely to generate quizzes and provide you with the best possible results. Additionally, Wayground AI checks for copyrights before using publicly available material.
+
+2025-06-18
+
+More questions? Check out our Help Center.
+
+Find your way forward
+
+teachers
+Sign up free
+
+admins
+Get a quote

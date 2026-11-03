@@ -1,0 +1,171 @@
+Source: https://help.wayground.com/support/solutions/articles/158000404023-subprocessors-and-service-providers-used-by-wayground
+Accessed: 2026-11-03
+Raw SHA-256: cc2bc15f7438839bfd4785cc46bbc4dedbb9f3ea12d126929044cbcfa6defdcb
+
+Subprocessors and Service Providers Used by Wayground :
+
+Subprocessors and Service Providers Used by Wayground
+
+Updated 31 Aug 2026
+
+2 min read
+
+TABLE OF CONTENTS
+Subprocessors
+AI service providers
+
+At Wayground, we prioritize user privacy and data security. To provide you with the best experience, we collaborate exclusively with trusted partners who may require access to some personal information, always with your privacy as our top concern.
+Below, you’ll find a summary of how each of these services is used, along with links to their respective privacy policies. We believe in transparency so you can stay informed about how your data is being used.
+It’s important to note that this list of services might evolve over time as we continue to refine and enhance our services. We encourage you to reach out with any questions or concerns you may have at  privacy@wayground.com .
+Your trust is invaluable to us, and we’re here to ensure your data remains secure throughout your Wayground journey!
+
+Subprocessors
+Name of the service provider
+How Wayground uses the service provider
+Processes student data
+
+Amazon Web Services
+Cloud services, website hosting, and data center services.
+Yes
+
+Braze
+Email communication system used to send transactional emails and updates to non-student end-users.
+No
+
+Google Cloud Platform
+Cloud service provider, internal documents, and communication.
+Yes
+
+Hotjar
+Product analytics, used to debug and improve the service.
+Yes
+
+Outreach
+Communication with school and district prospective customers.
+No
+
+Salesforce
+Customer relationship management with schools and districts.
+No
+
+Sentry
+Log tracking to identify and resolve technical issues.
+Yes
+
+Slack
+Internal communications. User data is rarely shared, but it may occur (for example, during internal troubleshooting to provide support).
+No
+
+Stripe
+PCI compliant payment gateway used to process payments for teachers, schools, and businesses.
+No
+
+Typeform
+Used to create forms, typically completed by teachers and administrators.
+No
+
+Zendesk
+Cloud-based customer support. Data is only processed for communication if the user reaches out for support.
+Yes
+
+Freshdesk
+Cloud-based customer support. Data is only processed for communication if the user reaches out for support.
+Yes
+
+AI service providers
+Wayground uses the following AI services to power features such as question generation, content extraction, evaluation, and voice interactions.
+Name of the service provider
+Category
+How Wayground uses the service provider
+
+Portkey
+LLM gateway
+Routes requests to downstream LLM providers.
+
+Microsoft Azure
+LLM provider
+Gen AI Model provider used for Wayground’s AI features.
+
+Google Cloud Platofrm
+LLM provider
+Gen AI  Model provider used for Wayground’s AI features.
+
+Amazon Web Services
+Cloud AI
+Gen AI Model provider used for Wayground’s AI features.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+On this page
+
+You may like to read -
+
+Integrate Wayground with Blackboard via LTI as an Administrator
+
+Domains and Email Addresses to Safelist for Wayground (formerly Quizizz)
+
+Integrate Wayground with Moodle via LTI as an Administrator
+
+Navigate My Library and Wayground Library
+
+Articles in this folder -
+
+Quizizz is now Wayground: What’s Changing and What’s Not
+
+Wayground Refund Policy
+
+Wayground ISO Certification
+
+International Data Protection at Wayground
+
+Ask Support bot →
+
+Print
+
+© 2026 Quizizz Inc. (DBA Wayground)
+
+support@wayground.com
+
+X
+
+0 of 0

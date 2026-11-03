@@ -1,0 +1,250 @@
+Source: https://help.wayground.com/support/solutions/articles/158000453414-deploy-wayground-ai-for-your-school-or-district
+Accessed: 2026-11-03
+Raw SHA-256: cfc91312b0d077fbe8f484807e6c0a874c633fadfec5574c68359a5d0374d63a
+
+Deploy Wayground AI for Your School or District :
+
+Deploy Wayground AI for Your School or District
+
+Updated 15 Jun 2026
+
+4 min read
+
+This guide is for the Chrome and Google Workspace administrators who roll Wayground AI out to teachers. It covers force-installing the extension, allowing the right network domains, whitelisting the sign-in client for districts with restricted OAuth, and the privacy and compliance details your district needs on file.
+Teachers don't need any of this to get started on a personal device; they can install it themselves (see  Getting Started with the Wayground AI Chrome Extension ). This guide is about deploying it at scale and making sure it works on managed devices.
+
+At a glance
+What
+Value
+
+Extension name
+Wayground AI
+
+Extension ID
+jnegnfbcjklhkmoihoakeijbealomipg
+
+OAuth Client ID
+58172892053-faol054co4k3tsmtbtuk41v4si41slq0.apps.googleusercontent.com
+
+Chrome Web Store
+Wayground AI listing
+
+Supported browser
+Google Chrome (Manifest V3)
+
+Supported OS
+ChromeOS (Chromebooks), Mac, Windows
+
+Audience
+Teachers only; student accounts are auto-blocked
+
+Who it's for, and the student block
+Wayground AI is a  teacher tool . When you deploy it, scope the install to your  teacher organizational unit (OU) . If a student account opens the extension, it's automatically blocked with a "For Teachers Only" message. Scoping to the teacher OU keeps it off student devices entirely and avoids confusion.
+
+Force-install the extension
+To push Wayground AI to managed devices via the Google Admin Console:
+Sign in to the  Google Admin Console  (admin.google.com).
+
+Go to  Devices → Chrome → Apps & extensions .
+
+Select your  teacher OU .
+
+Click  Add → Add from Chrome Web Store .
+
+Enter the extension ID:  jnegnfbcjklhkmoihoakeijbealomipg .
+
+Set the installation policy to  Force install .
+
+Teachers in that OU will get the extension automatically.  Updates roll out silently  through Chrome; there's no manual update step for you or for teachers.
+
+Whitelist the OAuth client (restricted-OAuth districts)
+If your district  restricts third-party API access  in Google Workspace, teachers won't be able to sign in until you trust Wayground's OAuth client.
+In the  Google Admin Console , go to  Security → API controls → Manage third-party app access .
+
+Add Wayground's OAuth client as  trusted , using the client ID:  58172892053-faol054co4k3tsmtbtuk41v4si41slq0.apps.googleusercontent.com
+
+If teachers report that the extension won't load or sign-in fails on managed devices, this is the most likely cause.  A blocked OAuth client prevents sign-in even when the extension itself is installed correctly.
+
+Allow the right network domains
+Make sure these domains are reachable over  HTTPS (port 443)  so the extension's features work:
+Domain
+Used for
+
+*.wayground.com
+AI generation, sign-in, saving and publishing, analytics
+
+accounts.google.com
+Google sign-in (OAuth)
+
+*.googleapis.com
+Google Drive and Google Classroom access
+
+*.youtube.com
+Reading YouTube videos to create Interactive Videos
+
+*.pangram.com
+Academic-integrity checks (AI-writing and plagiarism)
+
+If any of these is blocked, the matching feature will fail. For example, blocking *.pangram.com disables integrity checks; blocking *.youtube.com breaks YouTube-based resources.
+
+What the extension can access, and why
+When teachers use Wayground AI, it requests Google permissions scoped to what each feature needs. It reads content  only when a teacher takes an explicit action : opening the panel and choosing to create, grade, or give feedback.
+Google access (OAuth scopes):
+Access
+What it's for
+
+Read Google Drive (Docs, Slides, Forms, Drive files)
+Reading the content a teacher chooses to turn into a resource or to give feedback on
+
+Create/manage only files it creates
+Converting Office files (PPTX/DOCX/XLSX) to PDF for processing
+
+Read Classroom courses
+Listing classes for grading
+
+Read Classroom rosters
+Showing student names
+
+Read student submissions
+Reading work for grading and feedback
+
+Write Classroom coursework
+The  only  write access; used to post grades and comments to Classroom, and  only when a teacher clicks Apply
+
+There are  no Gmail, Calendar, or Contacts scopes .
+Chrome permissions  the extension declares (for transparency when reviewing the listing):
+identity : sign-in
+
+side panel : its entire UI
+
+scripting and host access : to read page content on teacher action and show the "Create activity" button
+
+tabs / activeTab : to detect the page type and read the active tab's content
+
+storage : tokens, preferences, session state
+
+offscreen and alarms : for screen recording and background tasks
+
+web navigation and context menus : to re-show the button on in-page navigation and offer "Create activity from selection"
+
+downloads : to save integrity and class report PDFs
+
+Privacy and compliance
+The following reflects Wayground's school/district deployment documentation. Share it with your privacy team, and request the DPA for your records.
+FERPA compliant:  Yes
+
+COPPA compliant:  Yes
+
+Student data used to train AI:  No; vendors are contractually prohibited
+
+Data storage location:  United States (AWS)
+
+Student submission content retention:  deleted within  72 hours  of processing
+
+Data sold or shared:  No
+
+Browsing history collected:  No
+
+Data collected from student accounts:  No
+
+Integrity provider (Pangram):  does not train on user content, does not sell data, and is engaged only when a teacher opens an integrity check. Policy:  pangram.com/data-privacy
+
+Privacy policy:   wayground.com/privacy
+
+Data Processing Agreement (DPA):  available on request
+
+A simple rollout checklist
+☐ Confirm devices run  Google Chrome  on a supported OS.
+☐  Force-install  the extension to your  teacher OU  (ID jnegnfbcjklhkmoihoakeijbealomipg).
+☐ If you restrict OAuth,  whitelist the client ID .
+☐  Allow the network domains  over HTTPS/443.
+☐ Share the  privacy/compliance summary  with your privacy team and request the  DPA .
+☐ Point teachers to  Getting Started with the Wayground AI Chrome Extension .
+
+Troubleshooting deployment
+Teachers can't sign in / the extension won't load on managed devices.
+Most often the  OAuth client isn't whitelisted . Trust the client ID under Security → API controls.
+A specific feature doesn't work for everyone.
+Check the  network allowlist ; a blocked domain disables the matching feature (e.g., Pangram → integrity checks; YouTube → Interactive Video).
+Students see the extension.
+Re-scope the install to the  teacher OU . (Students who open it are blocked regardless, but scoping prevents it from appearing.)
+For teacher-facing issues, see  Troubleshooting the Wayground AI Chrome Extension .
+
+Need help?
+Email  support@wayground.com  for deployment support, the DPA, or compliance questions.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+On this page
+
+You may like to read -
+
+Wayground AI Chrome Extension
+
+Frequently Asked Questions
+
+Troubleshooting the Wayground AI Chrome Extension
+
+Deploying the Wayground AI Chrome Extension
+
+Articles in this folder -
+
+Wayground AI Chrome Extension
+
+Getting Started with the Wayground AI Chrome Extension
+
+Create Assessments, Flashcards, and Passages From Anywhere
+
+Record Your Screen Into a Lesson (Beta)
+
+Ask Support bot →
+
+Print
+
+© 2026 Quizizz Inc. (DBA Wayground)
+
+support@wayground.com
+
+X
+
+0 of 0

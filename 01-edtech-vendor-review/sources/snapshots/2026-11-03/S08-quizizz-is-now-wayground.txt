@@ -1,0 +1,123 @@
+Source: https://help.wayground.com/support/solutions/articles/158000403867-quizizz-is-now-wayground-what-s-changing-and-what-s-not
+Accessed: 2026-11-03
+Raw SHA-256: 1aeda664f3f4e4ae7b9676fa4519f4258f95a151e7720598cd81d7196519f6d3
+
+Quizizz is now Wayground: What’s Changing and What’s Not :
+
+Quizizz is now Wayground: What’s Changing and What’s Not
+
+Updated 4 Nov 2025
+
+3 min read
+
+After ten years of building alongside teachers, Quizizz has a new name: Wayground .
+
+This article explains what’s changing, what’s staying the same, and what it means for your classroom.
+
+Why the name change?
+We started by helping teachers create interactive quizzes that students could do together. Over time, the platform grew into something more: a space where teachers could plan, assign, and customize a variety of instructional resources. We've evolved into a comprehensive platform, and it was time for our name to grow with us. The name Wayground reflects that growth.
+Our new name reflects our mission to help every student find their way within the common ground of the classroom.
+
+What’s changing?
+The name has changed from Quizizz to Wayground .
+The website has moved from quizizz.com to wayground.com . Automatic redirection is in place, so existing links will continue to work .
+The visual design is being updated with a new logo, colors, and branding.
+Everything else stays the same!
+
+What’s staying the same?
+Your account works just like before. No action is needed.
+Your classes and resources are still available with no changes.
+Data privacy and legal agreements remain in place. Quizizz Inc. is still the legal entity.
+Join links and integrations, such as joinmyquiz.com and LMS tools, continue to work.
+
+FAQs
+What will happen to my account?
+Nothing changes. You can continue logging in the same way with access to all your existing resources and classes.
+Do I need to update anything on my school network?
+Please share this article with your IT team so they can update firewalls and filters if needed.
+What about data privacy and existing contracts?
+Our ownership, legal structure, and data privacy practices remain the same (we’re also proud to have recently received The Common Sense Media Privacy Seal).
+Quizizz Inc. remains the legal parent entity, and any contracts signed with Quizizz Inc. remain valid. We’ve linked a letter clarifying this status, along with the product name change, here .
+Is the product or user interface changing?
+No. The core product experience remains the same. Any new features will be added gradually and based on feedback from teachers.
+How do students join a session?
+Students can now go to wayground.com/join. All previous links, like joinmyquiz.com , will continue to work.
+What is Wayground, and how should I describe it?
+Wayground is the world’s most versatile supplemental learning platform. It’s an AI-supported hub that brings together flexible resources for instruction, practice, and assessment in a fun, easy-to-use platform that boosts achievement and confidence.
+
+Still have questions? Contact our support team: support@wayground.com
+Let us know how we can help.
+
+Was this article helpful?
+
+No
+
+Yes
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+*
+
+Let us know how can we improve this article! *
+
+Need more information
+
+Difficult to understand
+
+Inaccurate/irrelevant content
+
+Missing/broken link
+
+Select at least one of the reasons
+
+Please give your comments
+
+CAPTCHA verification is required.
+
+Cancel
+
+Send
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+On this page
+
+You may like to read -
+
+Domains and Email Addresses to Safelist for Wayground (formerly Quizizz)
+
+Set up Wayground-Canvas LTI integration as an Administrator
+
+What's the difference between Live and Assigned HW sessions?
+
+Integrate Wayground with Canvas via LTI as an Administrator (Legacy: Developer Key setup)
+
+Articles in this folder -
+
+Wayground Refund Policy
+
+Wayground ISO Certification
+
+International Data Protection at Wayground
+
+Ask Support bot →
+
+Print
+
+© 2026 Quizizz Inc. (DBA Wayground)
+
+support@wayground.com
+
+X
+
+0 of 0
