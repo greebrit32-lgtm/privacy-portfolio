@@ -2,9 +2,9 @@
 
 **Scenario (chosen 2026-11-03):** A **fictional** Texas company is launching a consumer mobile app that uses location data and ad targeting. Acting as the company's privacy analyst, I map the app's personal data and assess its privacy risks **before launch**. The company, app, and all data are invented. The profile is drafted in S1 (`scenario.md`).
 
-**Measured against (named only; sourced in S2):** the Texas Data Privacy and Security Act, Section 5 of the FTC Act (unfair or deceptive practices) and related FTC guidance, and the Fair Information Practice Principles (FIPPs). The report is structured on the Texas data protection assessment elements (§541.105(b)), with the nine FIPPs as the risk lens.
+**Measured against** ([source register](sources/source-register.md)): the Texas Data Privacy and Security Act, Section 5 of the FTC Act (unfair or deceptive practices) and related FTC guidance, and the Fair Information Practice Principles (FIPPs). The report is structured on the Texas data protection assessment elements (§541.105(b)), with the nine FIPPs as the risk lens.
 
-**Status:** Planned. Plan approved 2026-11-03. Not started.
+**Status:** In progress. S1–S2 done (scenario and sources).
 
 ## Deliverables
 1. `deliverables/1-data-inventory.xlsx`: every personal-data element with source, purpose, legal basis, system, recipients, retention, and sensitivity (generated from Markdown, as in Project 01)
