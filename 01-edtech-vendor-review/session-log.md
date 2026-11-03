@@ -64,7 +64,7 @@
 
 ## S5 — 2026-11-03 — Requirements matrix (draft) ✅
 **Done**
-- Drafted `working/requirements-matrix.md`: 12 domains and 40 requirements, each citing a specific clause (FERPA, COPPA, Tex. Educ. Code §§32.151–.156, FTC FAQ §N, NDPA v2.2) and labeled by basis type (Law / Guidance / Contract benchmark / Derived).
+- Drafted `working/requirements-matrix.md`: 12 domains and 42 requirements, each citing a specific clause (FERPA, COPPA, Tex. Educ. Code §§32.151–.156, FTC FAQ §N, NDPA v2.2) and labeled by basis type (Law / Guidance / Contract benchmark / Derived).
 - Verified from S18: COPPA amendments effective 2025-06-23, **compliance date 2026-04-22**. The FTC did **not** finalize the ed-tech/school-authorization provisions and continues to rely on existing guidance.
 - Read each cited clause in the source text before citing it. S12 (scanned) references are marked "as viewed," with exhibit headings to confirm in S8.
 
