@@ -1,6 +1,6 @@
 # Requirements Matrix — Wayground Review (Pecan Hollow ISD, fictional)
 
-**Status:** DRAFT (S5, 2026-11-03). Domains and requirements were drafted by Claude for Brittany to review. Nothing here is a finding or a rating. This matrix defines *what we measure against*. Vendor evidence is collected in S8–S9.
+**Status:** APPROVED STRUCTURE (Brittany, 2026-11-03). 12 domains confirmed. Requirements were drafted by Claude. Nothing here is a finding or a rating. This matrix defines *what we measure against*. Vendor evidence is collected in S8–S9.
 
 _Disclaimer: independent educational exercise, based only on public documents. Not legal advice. Not affiliated with or endorsed by Wayground._
 
@@ -85,7 +85,6 @@ _No source in the register contains an AI-specific requirement. Each row applies
 |-----|-------------|-------|------|----------------|
 | D8.1 | Notify the district within **72 hours** of confirming a breach, with the minimum content listed. | NDPA v2.2 §5.4 [S23] | Contract benchmark | S01, S02, S12 |
 | D8.2 | Reimburse the district's breach-related costs (Texas addendum). | S12 p. 22 ¶6 "Reimbursement of Expenses Associated with Security Breach" (as viewed; exhibit heading to confirm in S8) | Contract benchmark | S12 |
-| D8.3 | Statutory breach notice under Texas general law. | Not in current source register. **Open:** add Tex. Bus. & Com. Code §521.053 as a source, or keep it out of scope? | — | — |
 
 ### D9. Retention and deletion
 | Req | Requirement | Basis | Type | Vendor sources |
@@ -119,8 +118,8 @@ _No source in the register contains an AI-specific requirement. Each row applies
 
 ---
 
-## Open questions for Brittany
-1. **Domain count:** there are 12. Merge, split, or drop any? (For example, D8 Breach could merge into D7 Security.)
-2. **D6 (AI) is labeled "Derived."** Is that the right framing for a public portfolio, or should AI requirements be presented as best practice with sources added later (e.g., ED or FTC AI guidance)?
-3. **D8.3:** add Texas breach-notification law (Bus. & Com. Code §521.053) to scope, or leave it out to keep the project small?
-4. **PPRA** (named in the NDPA recitals) is not in scope. Confirm that it stays out.
+## Scope decisions (Brittany, 2026-11-03)
+1. **12 domains** confirmed as drafted.
+2. **D6 (AI) stays labeled "Derived."** No source in the register sets an AI-specific requirement, and the portfolio says so openly.
+3. **Texas general breach-notification law is out of scope.** D8.3 is removed. Breach requirements rely on the NDPA/TX-NDPA benchmark (D8.1–D8.2).
+4. **PPRA is out of scope.**

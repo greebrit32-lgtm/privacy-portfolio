@@ -73,3 +73,14 @@
 **Open questions for Brittany** (see the end of the matrix)
 - Domain count and merges; framing of D6 (AI) as "Derived"; whether to add Texas breach-notice law (Bus. & Com. Code §521.053); confirm PPRA stays out of scope.
 - Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
+
+## S6 — 2026-11-03 — Questionnaire and rubric design ✅
+**Done**
+- Recorded the S5 scope decisions in the matrix: 12 domains confirmed; D6 (AI) labeled Derived; Texas general breach law and PPRA out of scope (D8.3 removed, leaving **41 requirements**).
+- Drafted `working/questionnaire-rubric.md`: 41 questions, one per requirement, answered from public documents only. It also defines the answer columns for the .xlsx.
+- **Rubric approved by Brittany:** 5 score levels (A 2 / P 1 / D 1 / NF 0 / N/A excluded); weights by basis type (Law 3; Guidance, Benchmark, and Derived 2; definition and district-duty items 1); domain percentages only, with no overall grade. Score ≠ risk rating (S10).
+
+**Next step (S7):** Write `tools/build_questionnaire.py` (openpyxl) to build `deliverables/1-vendor-questionnaire.xlsx` from the matrix and the rubric. Sheets: Instructions, Questionnaire (41 rows, score dropdown, point formulas), Domain Scores (formulas), Rubric, Sources. Blank answers.
+
+**Open questions for Brittany**
+- None new. Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
