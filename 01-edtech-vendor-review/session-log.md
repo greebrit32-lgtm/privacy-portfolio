@@ -116,7 +116,7 @@
 **Next step (S9):** Evidence pass D7–D12 (S12 Art. V, Exhibits F–G; breach, retention, rights, COPPA consent, agreements/legacy). Then Brittany confirms or changes all scores.
 
 **Open questions for Brittany**
-- **Scoring frame:** score with the TX-NDPA terms available via Exhibit E (recommended), with "Policy only" in Notes? Or score on the policy alone?
-- **D6.2:** P or D?
+- ~~Scoring frame~~ **Decided:** include the TX-NDPA terms available via Exhibit E. Record "Policy only" in Notes.
+- ~~D6.2~~ **Decided:** P.
 - Review the 22 PROPOSED scores (in `working/evidence-notes.md` or the .xlsx).
 - Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
