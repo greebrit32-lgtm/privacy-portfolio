@@ -21,3 +21,6 @@ Each project copies a task an entry-level Privacy Analyst does at work. All of t
 
 ## Disclaimer
 These are independent educational exercises based only on publicly available documents. They are not legal advice and are not affiliated with or endorsed by any vendor named. All organizations other than named vendors are fictional.
+
+## License
+My original work in this repository is licensed under [CC BY 4.0](LICENSE). Quoted third-party material remains subject to its owners' terms.

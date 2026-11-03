@@ -176,6 +176,6 @@
 - **Keychain check:** the saved github.com credential is account ID 285196955 = Brittany (greebrit32-lgtm), not CJ. `gh` is logged in as greebrit32-lgtm.
 
 **Open questions for Brittany**
-- F1 likelihood reads "Medium–High," which is not a level in the approved 3×3 method (rating is High either way).
-- License; GitHub repo name and visibility; permission to create the repo and push.
+- ~~F1 likelihood~~ **Decided: High** (rating unchanged: High).
+- ~~License / repo / push~~ **Decided:** CC BY 4.0; public repo `greebrit32-lgtm/privacy-portfolio`; Brittany approved creating it and pushing (2026-11-03).
 - Retry the FTC FAQ snapshot (S19) later. Optional.
