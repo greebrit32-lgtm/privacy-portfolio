@@ -179,3 +179,7 @@
 - ~~F1 likelihood~~ **Decided: High** (rating unchanged: High).
 - ~~License / repo / push~~ **Decided:** CC BY 4.0; public repo `greebrit32-lgtm/privacy-portfolio`; Brittany approved creating it and pushing (2026-11-03).
 - Retry the FTC FAQ snapshot (S19) later. Optional.
+
+**Published 2026-11-03:** https://github.com/greebrit32-lgtm/privacy-portfolio (public). Verified: all commits on GitHub, the only author email is the noreply address, deliverables and PDFs present, landing page renders. **Project 01 complete.**
+
+**Next (Project 02):** Plan the PIA / data-map project (scope, fictional organization, session plan) before building anything.
