@@ -141,3 +141,16 @@
 - ~~D12.4~~ **Decided: D.**
 - ~~Score review~~ **All 41 scores confirmed by Brittany (2026-11-03).**
 - Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
+
+## S10 — 2026-11-03 — Risk assessment and findings table ✅
+**Done**
+- Recorded Brittany's decisions from the end of S9: D12.4 = D; all 41 questionnaire scores confirmed. Deliverable 1 is complete.
+- Drafted `deliverables/2-risk-assessment.md`: summary, method, a 9-finding table, and finding details (requirement / what the docs say / gap / recommendation), all cited and in neutral wording (checked for "violates," "fails," "illegal").
+- **Brittany approved** the 3×3 likelihood × impact method and assigned the ratings: **High** for F1 (AI data flows), F2 (TX-NDPA coverage of AI features), F3 (protections only in the DPA; teacher self-sign-up), and F4 (COPPA consent model). **Medium** for F5 (provider lists), F6 (retention), and F7 (material changes). **Low** for F8 (develop new services) and F9 (security program elements).
+- Study note added: risk = likelihood × impact; score ≠ risk.
+
+**Next step (S11):** Write the 2-page memo to the District Privacy Officer (`deliverables/3-privacy-officer-memo.md`): summary, top risks (F1–F4), contract terms to require, and a recommendation. **Brittany decides approve / conditionally approve / reject.** Export to PDF and check it is 2 pages.
+
+**Open questions for Brittany**
+- The recommendation decision (S11).
+- Still open: retry the FTC FAQ snapshot; repo license; check the keychain for CJ's GitHub login before the first push.
