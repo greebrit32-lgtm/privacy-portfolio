@@ -62,3 +62,14 @@
 
 **Open questions for Brittany**
 - Push on hold.
+
+## S5 — 2026-11-03 — Tabletop design ✅
+**Done**
+- **Decision (Brittany): sealed script.** Brittany approves only the participant-facing materials before playing. The facilitator script stays unopened until after S7.
+- Wrote `deliverables/3-tabletop-package/`: `README.md` (objectives O1–O6 mapped to playbook/matrix sections, format, rules, roles, after-exercise steps), `participant-briefing.md` (Friday 9:40 p.m. starting situation, what each role knows, reference facts, first decision), and **`facilitator-script.md` (SEALED)**: ground truth, 11 timed injects over about 60 minutes covering about 3 weeks, in-character answers, evaluation guide. Dates checked with code.
+
+**Next step (S6):** Facilitator guide finishing touches and participant materials (holding-statement template, incident log template, 4-factor worksheet) so the S7 exercise can record decisions cleanly. Then S7: run it live.
+
+**Open questions for Brittany**
+- Approve the participant-facing package (README + briefing).
+- Push on hold.
