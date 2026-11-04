@@ -73,3 +73,17 @@
 **Open questions for Brittany**
 - ~~Approve participant package~~ **Approved by Brittany (2026-11-03).**
 - Push on hold.
+
+## S6 — 2026-11-03 — Working templates ✅
+**Done**
+- Added `deliverables/3-tabletop-package/templates/` (generic, no sealed facts):
+  - **incident log** (key dates: HIPAA discovery, Texas determination, law-enforcement delay; a timeline with "who decided" and "reasoning"; open questions);
+  - **4-factor worksheet** (§164.402 steps: PHI? impermissible? exception? secured? ransomware presumption [S03]; factors (i)–(iv); conclusion; affected counts by state; Texas sensitive-information check);
+  - **notification tracker** (rows N-1 to N-7 mirroring the matrix, with computed deadlines);
+  - **holding statements** (front-desk script, media holding statement, early website notice; no speculation or ransom statements).
+- Created the skeleton of deliverable 4 (`4-exercise-record-and-breach-analysis.md`): Part 1 exercise record (S7), Part 2 breach assessment (S8), Part 3 notification plan (S8).
+
+**Next step (S7):** **Run the tabletop live** (about 60 minutes). Claude facilitates from the sealed script; Brittany decides as Privacy Lead. Decisions recorded in deliverable 4, Part 1.
+
+**Open questions for Brittany**
+- Push on hold.

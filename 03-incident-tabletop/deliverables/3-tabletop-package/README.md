@@ -8,10 +8,11 @@
 ## Files in this package
 
 | File | Audience | When to open |
-|-------------------------------|------------------|---------------------------------------------------|
+|--------------------------------------------|----------------|----------------------------------------|
 | `README.md` (this file) | Everyone | Before the exercise |
 | [`participant-briefing.md`](participant-briefing.md) | Participants | Before the exercise |
 | `facilitator-script.md` | **Facilitator only** | **Sealed.** Participants open it **after** the exercise (S7), for the after-action review |
+| [`templates/`](templates/): [incident log](templates/incident-log.md), [4-factor worksheet](templates/four-factor-worksheet.md), [notification tracker](templates/notification-tracker.md), [holding statements](templates/holding-statement.md) | Participants | During the exercise |
 
 ## Purpose
 Practice the clinic's [incident response playbook](../1-incident-response-playbook.md) and [notification matrix](../2-notification-matrix.md) under time pressure, with incomplete information, before a real incident happens.
