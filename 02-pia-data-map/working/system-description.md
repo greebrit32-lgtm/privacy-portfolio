@@ -27,24 +27,24 @@ _Fictional company, product, vendors, and data. Data is described by **type** on
 |----|---------------------|--------|----------------------|------------------------|
 | DE-01 | Name | User | F-1 | SYS-1, SYS-2, SYS-4, SYS-6, TP-5 |
 | DE-02 | Email address | User or sign-in provider | F-1 | SYS-1, SYS-2, SYS-4, SYS-6, TP-5 |
-| DE-03 | Account ID (internal) | Generated | F-1 | SYS-2, SYS-3, SYS-4, TP-1 |
+| DE-03 | Account ID (internal) | Generated | F-1 | SYS-1, SYS-2, SYS-3, SYS-4, TP-1 |
 | DE-04 | Date of birth | User (self-declared) | F-1 (age gate) | SYS-1, SYS-2 |
-| DE-05 | Sign-in provider identifier (Google/Apple) | Sign-in provider | F-1 | SYS-2 |
-| DE-06 | Password (stored hashed) | User | F-1 | SYS-2 |
+| DE-05 | Sign-in provider identifier (Google/Apple) | Sign-in provider | F-1 | SYS-1, SYS-2 |
+| DE-06 | Password (stored hashed) | User | F-1 | SYS-1, SYS-2 |
 | DE-07 | Precise geolocation, **foreground** | Device GPS | F-2 | SYS-1, SYS-2, SYS-3, SYS-4 |
 | DE-08 | Precise geolocation, **background** (every 15 minutes) | Device GPS | F-3 | SYS-1, SYS-2, SYS-3, SYS-4 |
 | DE-09 | Location history (stored trail of DE-07/DE-08) | Derived | F-2, F-3, F-4 | SYS-2, SYS-3, SYS-4 |
-| DE-10 | Push-notification token | Device | F-3 | SYS-2, TP-3 |
-| DE-11 | Selected interests (e.g., live music, food, sports) | User | F-4 | SYS-2, SYS-3, SYS-4 |
+| DE-10 | Push-notification token | Device | F-3 | SYS-1, SYS-2, TP-3 |
+| DE-11 | Selected interests (e.g., live music, food, sports) | User | F-4 | SYS-1, SYS-2, SYS-3, SYS-4 |
 | DE-12 | **Inferred interests and profile** | Derived (SYS-3) | F-4, F-7, F-8 | SYS-3, SYS-4, SYS-5, TP-2, TP-6 |
 | DE-13 | In-app activity (views, taps, saves, searches) | App (SYS-1, TP-1) | F-4, F-9 | SYS-1, SYS-3, SYS-4, TP-1 |
-| DE-14 | Check-in / attendance history (event, place, time) | User action plus location | F-5 | SYS-2, SYS-3, SYS-4, SYS-6, TP-5 |
-| DE-15 | Ticket purchase history | User action | F-6 | SYS-2, SYS-4, SYS-6, TP-4, TP-5 |
-| DE-16 | Payment card data | User → TP-4 only | F-6 | TP-4 |
+| DE-14 | Check-in / attendance history (event, place, time) | User action plus location | F-5 | SYS-1, SYS-2, SYS-3, SYS-4, SYS-6, TP-5 |
+| DE-15 | Ticket purchase history | User action | F-6 | SYS-1, SYS-2, SYS-4, SYS-6, TP-4, TP-5 |
+| DE-16 | Payment card data | User → TP-4 (entered in the processor's in-app payment form; not stored by Mesquite Lantern) | F-6 | SYS-1, TP-4 |
 | DE-17 | Device advertising ID | Device | F-7, F-9 | SYS-1, SYS-4, TP-1, TP-2, TP-6 |
-| DE-18 | Device information (model, OS, app version) | Device | F-9 | SYS-2, TP-1, TP-2 |
-| DE-19 | IP address | Network | F-9 (and all requests) | SYS-2, TP-1, TP-2 |
-| DE-20 | Crash and diagnostic logs | Device | F-9 | TP-1 |
+| DE-18 | Device information (model, OS, app version) | Device | F-9 | SYS-1, SYS-2, TP-1, TP-2 |
+| DE-19 | IP address | Network | F-9 (and all requests) | SYS-1, SYS-2, TP-1, TP-2 |
+| DE-20 | Crash and diagnostic logs | Device | F-9 | SYS-1, TP-1 |
 | DE-21 | Audience segment membership | Derived (SYS-4) | F-8 | SYS-4, SYS-5, TP-6 |
 | DE-22 | Ad interaction data (impressions, clicks) | TP-2 | F-7, F-8 | SYS-4, SYS-5, TP-2 |
 | DE-23 | Permission and preference records (location permission state, marketing opt-in, ad-tracking choice) | Device / user | F-1, F-2, F-3, F-7 | SYS-1, SYS-2 |

@@ -77,3 +77,20 @@
 **Open questions for Brittany**
 - ~~Sensitivity~~ **Decided:** scale approved; DE-11/12/14/21 = Sensitive data (whole type, since the design mixes in sensitive categories); DE-16 = High; DE-24 = Medium (S7 flags the precision issue). Other values stand as drafted under the approved scale.
 - Still pending: manual check of Ch. 541 "Amended by" lines; push on hold.
+
+## S6 — 2026-11-03 — Data-flow map ✅
+**Done**
+- Wrote `tools/build_dataflow.py`. It generates `deliverables/2-data-flow-map.md` (Mermaid block, flow table, group legend, observations) and `deliverables/pdf/2-data-flow-map.pdf` from the same Markdown as the inventory, so the map can't drift from the data.
+- Result: **15 flows, 10 carrying Texas "sensitive data"** (red arrows, ⚠). Sensitive data leaves Mesquite Lantern's systems on 3 flows: recommendation engine → ad network (profile, coarse location), organizer portal → event organizers (check-ins), advertiser portal → advertisers (profile, ad segments).
+- Fixes caught during review of the generated diagram:
+  - (1) duplicate group labels;
+  - (2) a missing sensitive flow (profile → ad network from the recommendation engine);
+  - (3) data passing through the app wasn't listed under SYS-1, so card data → payment processor was invisible. Recipients were updated in system-description.md and the inventory rebuilt;
+  - (4) a backwards flow (profile shown flowing *from* the ad network); outbound third-party flows are now limited to data that party originates;
+  - (5) layout: switched to top-to-bottom with short labels. Outside parties are now role-labeled nodes instead of boxes, because Mermaid ignores direction inside boxes linked from outside.
+- Rendering verified in headless Chrome with Mermaid 10.9.1 (PDF fits one page). GitHub rendering to be confirmed after the next push.
+
+**Next step (S7):** Risk identification. Walk each feature and flow against the 9 FIPPs and Texas Ch. 541 (consent for sensitive data; dark patterns; purpose compatibility; minimization/retention; sale/targeted-advertising disclosures and opt-outs; processor contracts; assessment elements §541.105(b)) and the FTC §5 / InMarket pattern. Output: `working/risk-register.md` (risks with citations; no ratings yet).
+
+**Open questions for Brittany**
+- Still pending: manual check of Ch. 541 "Amended by" lines; push on hold (GitHub rendering of the Mermaid map gets checked at push time).

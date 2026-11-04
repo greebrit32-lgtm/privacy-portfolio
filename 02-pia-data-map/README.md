@@ -4,7 +4,7 @@
 
 **Measured against** ([source register](sources/source-register.md)): the Texas Data Privacy and Security Act, Section 5 of the FTC Act (unfair or deceptive practices) and related FTC guidance, and the Fair Information Practice Principles (FIPPs). The report is structured on the Texas data protection assessment elements (§541.105(b)), with the nine FIPPs as the risk lens.
 
-**Status:** In progress. S1–S2 done (scenario and sources).
+**Status:** In progress. S1–S6 done (scenario, sources, system description, data inventory, data-flow map).
 
 ## Deliverables
 1. `deliverables/1-data-inventory.xlsx`: every personal-data element with source, purpose, legal basis, system, recipients, retention, and sensitivity (generated from Markdown, as in Project 01)
