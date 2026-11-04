@@ -109,7 +109,7 @@ _Fictional company, product, and data. Not legal advice._
 
 ### R-10. Analytics SDK's role is not established; vendor contracts not reviewed
 - **Design:** The analytics SDK (TP-1) gets account ID, activity, device IDs, IP address, and crash logs directly from the app. Its role (processor or third party) and retention aren't stated. Contracts with TP-1 through TP-4 weren't reviewed.
-- **Requirement:** A processor acts "on behalf of a controller" (§541.001(23) [S01]) under a contract with instructions, purpose, data types, duration, confidentiality, deletion or return, and assessment support (§541.104(a)–(b)). A third-party recipient may make the disclosure a "sale" if there's consideration (§541.001(28)).
+- **Requirement:** A processor acts "on behalf of a controller" (§541.001(23) [S01]) under a contract with instructions, purpose, data types, duration, confidentiality, deletion or return, and assessment support (§541.104(a)–(b)). §541.104(a)(2) was amended effective 2026-01-01 to add assistance with security for data processed by an "artificial intelligence system" [S08]. A third-party recipient may make the disclosure a "sale" if there's consideration (§541.001(28)).
 - **Gap:** Without a defined role and contract, the company can't show that TP-1's use is limited to its instructions. That is a gap relative to §541.104(b).
 - **Mitigation options:** choose analytics configured as a processor (no use for its own purposes) and sign §541.104(b) terms; minimize identifiers sent; review TP-2–TP-4 contracts too.
 

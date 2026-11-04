@@ -51,6 +51,8 @@ studying for CIPP/US and Security+). Three projects: 01 EdTech vendor review, 02
   from the same Markdown; `--pdf` also exports a PDF via headless Chrome.
 - PDF exports for LinkedIn via `tools/export_pdf.sh <file.md> [out-dir]` (pandoc → HTML →
   headless Chrome → PDF) into `deliverables/pdf/`.
+- Before PDF export, run `python3 tools/fit_tables.py <file.md>` so table columns are sized to
+  their content (pandoc uses separator-row dash counts; GitHub ignores them).
 - Memo must fit 2 pages in PDF.
 
 ## Working style

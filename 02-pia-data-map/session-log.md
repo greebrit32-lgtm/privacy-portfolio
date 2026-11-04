@@ -120,3 +120,17 @@
 **Open questions for Brittany**
 - Launch recommendation (S9).
 - **Needed before S9 cites Texas law as current:** manual check of Ch. 541 "Amended by" lines. Push on hold.
+
+## S9 — 2026-11-03 — PIA report ✅
+**Done**
+- **Brittany's decision: LAUNCH WITH CONDITIONS** (D-1–D-4 plus supporting mitigations built and verified; 3 Medium residual risks accepted with monitoring; 6-month re-review).
+- **Statute check (Brittany, official site):** only §541.104 is amended: "Acts 2025, 89th Leg., R.S., Ch. 1174 (H.B. 149), Sec. 3, eff. January 1, 2026." Registered H.B. 149 as **S08**. Read Sec. 3: it changes §541.104(a)(2) only (processor security assistance now includes data processed by an "artificial intelligence system"). §541.104(b), cited in the PIA, is unchanged. Register S02 and R-10 updated.
+- **Scope note:** H.B. 149 also enacted the Texas Responsible Artificial Intelligence Governance Act. Its "artificial intelligence system" definition includes systems generating "recommendations" (§551.001(1)), which may cover the recommendation engine (SYS-3). Obligations not assessed; flagged as an open item for counsel review.
+- Wrote `deliverables/3-pia-report.md`: summary and recommendation; scope, method, and sources; system as designed; the §541.105 assessment (triggers, benefits vs. risks, factors (A)–(D)); the risk table (inherent → residual); launch conditions; residual risk and monitoring; open items; sign-off block. Neutral wording checked. PDF = 5 pages.
+- New tool `tools/fit_tables.py`: sizes Markdown table columns for PDF export (the fix applied by hand twice in Project 01). Added to CLAUDE.md.
+
+**Next step (S10):** One-page executive summary for leadership (`deliverables/4-executive-summary.md`), plus PDF exports of all deliverables.
+
+**Open questions for Brittany**
+- Should the Texas AI Governance Act (H.B. 149) be assessed (adds sources and a session) or stay an open item for counsel?
+- Push on hold.
