@@ -14,7 +14,7 @@ import statistics
 import sys
 
 TOTAL = 100   # total dashes per separator row (only proportions matter)
-MIN = 4       # minimum dashes per column
+MIN = 7       # minimum dashes per column (keeps short ID columns like "D-1" on one line)
 
 
 def cells(line):

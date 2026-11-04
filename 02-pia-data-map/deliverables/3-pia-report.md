@@ -81,7 +81,7 @@ The design triggers a data protection assessment under Texas law on several grou
 Full detail with citations is in the [risk register](../working/risk-register.md). Ratings use the 3×3 likelihood × impact method.
 
 | ID | Risk | Inherent | Change(s) | Residual |
-|------|--------------------------------------------------------------|----------|-----------|----------|
+|-------|--------------------------------------------------------------|----------|-----------|----------|
 | R-01 | Background location on by default during onboarding | **High** | D-2 | **Medium** |
 | R-02 | Location reused for profiling, ads, and segments beyond the prompt's purpose (§541.101(b)(1)) | **High** | D-1 | Low |
 | R-03 | 24-month precise location history (§541.101(a)(1)) | **High** | D-3 | **Medium** |
@@ -138,7 +138,7 @@ Full detail with citations is in the [risk register](../working/risk-register.md
 ## 9. Sign-off
 
 | Role | Name | Decision | Date |
-|-------------------|--------------------------|--------------------------------------------------|------|
+|-------------------|--------------------------|--------------------------------------------------|-------|
 | Privacy Analyst | Brittany Green | Recommends launch with conditions (Sections 6–7) | 2026-11-03 |
 | General Counsel | *(fictional; pending)* | ☐ Approve with conditions ☐ Approve with changes ☐ Do not approve | |
 | Head of Product | *(fictional; pending)* | ☐ Accepts conditions D-1–D-4 and mitigations | |

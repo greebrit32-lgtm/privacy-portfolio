@@ -147,3 +147,15 @@
 
 **Open questions for Brittany**
 - Push on hold.
+
+## S10 — 2026-11-03 — Executive summary and PDF exports ✅
+**Done**
+- Wrote `deliverables/4-executive-summary.md` for leadership: the decision needed, the recommendation, why changes are needed (Texas sensitive-data consent; FTC InMarket), the four changes **with business trade-offs**, other required safeguards, remaining risk, and next steps.
+- PDF = **1 page** (verified visually). It took 5 iterations: condensed the header, merged next steps, tightened text, fixed a wrapping ID column, and moved the disclaimer and links to the top.
+- `tools/fit_tables.py`: minimum column width raised (7) so short ID columns don't wrap. The PIA report was refitted and re-exported (still 5 pages).
+- PDFs now in `deliverables/pdf/`: data-flow map (1 p), PIA report (5 pp), executive summary (1 p). The inventory stays .xlsx.
+
+**Next step (S11):** Citation audit (quotes against snapshots for S01/S03/S07/S08; S04–S06 against fetched text), disclaimers, privacy scan, README "start here" guide, landing page update, push (with Brittany's OK). Then confirm the Mermaid map renders on GitHub.
+
+**Open questions for Brittany**
+- Push approval at S11.
