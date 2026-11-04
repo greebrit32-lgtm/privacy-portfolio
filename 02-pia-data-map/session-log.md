@@ -94,3 +94,15 @@
 
 **Open questions for Brittany**
 - Still pending: manual check of Ch. 541 "Amended by" lines; push on hold (GitHub rendering of the Mermaid map gets checked at push time).
+
+## S7 — 2026-11-03 — Risk identification ✅ (no ratings yet)
+**Done**
+- Read the remaining TDPSA text cited: the "dark pattern" definition §541.001(10), the 45-day response §541.052(b), and request methods §541.055 (two or more methods; authorized-agent opt-outs including device-level global settings, §541.055(e)).
+- Wrote `working/risk-register.md`: **13 risks (R-01–R-13)**. Each has the design as submitted, the cited requirement, the gap (neutral "gap relative to" wording), FIPPs, §541.105(b) factors where relevant, FTC illustrations (labeled as allegations/orders in other cases), and mitigation options for S8.
+- Common root cause noted: location and sensitive categories reused for advertising (R-02, R-04, R-05, R-06).
+
+**Next step (S8):** Brittany rates each risk (3×3 likelihood × impact, same method as Project 01) and chooses mitigations. Then residual risk after mitigation.
+
+**Open questions for Brittany**
+- Ratings and mitigations (S8).
+- Still pending: manual check of Ch. 541 "Amended by" lines; push on hold.
