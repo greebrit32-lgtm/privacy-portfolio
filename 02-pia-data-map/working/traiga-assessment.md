@@ -1,7 +1,7 @@
 # Texas Responsible Artificial Intelligence Governance Act — Applicability to Lantern Local (S9b)
 
-**Status:** DRAFT (2026-11-03). Section-by-section reading of H.B. 149 as enacted [S08]. **R-14 rating is PROPOSED — Brittany to decide.**
-**Legal currency:** H.B. 149 takes effect January 1, 2026 [S08]. Whether codified Chapters 551–552 have been amended since: **check pending** (official site, manual).
+**Status:** FINAL (2026-11-03). Section-by-section reading of H.B. 149 as enacted [S08]. **R-14 rated Low (inherent and residual) by Brittany.**
+**Legal currency:** H.B. 149 takes effect January 1, 2026 [S08]. Brittany checked the official site on 2026-11-03: Chapters 551–552 show only "Added by Acts 2025" (H.B. 149), with no later amendments.
 
 _Fictional company and product. Not legal advice._
 
@@ -41,4 +41,4 @@ After a complaint, the Attorney General may request, through a civil investigati
   - confirm SYS-3 does not use protected-class attributes (this follows from D-4);
   - add the §541.104(a)(2) assistance term to processor contracts;
   - monitor Attorney General guidance.
-- **Proposed rating:** Likelihood **Low** (the Act's private-sector prohibitions are intent-based, and the design has no such aim) × Impact **Medium** (investigation burden; penalties if a violation were found) → **Low**. With mitigations, residual **Low**.
+- **Rating (Brittany, 2026-11-03):** Likelihood **Low** (the Act's private-sector prohibitions are intent-based, and the design has no such aim) × Impact **Medium** (investigation burden; penalties if a violation were found) → **Low**. With mitigations, residual **Low**.

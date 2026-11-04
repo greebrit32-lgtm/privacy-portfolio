@@ -130,7 +130,7 @@ Full detail with citations is in the [risk register](../working/risk-register.md
   - **Not applicable:** the consumer-disclosure duty in §552.051(b), social scoring (§552.053), and biometric identification (§552.054) are stated for governmental entities.
   - **Intent-based prohibitions** that bind any person (manipulation, §552.052; constitutional rights, §552.055; unlawful discrimination, §552.056, where "disparate impact is not sufficient by itself"; sexual content, §552.057) are not implicated by the design.
   - **Enforcement:** by the Attorney General only, with a 60-day cure period (§§552.101, .104). Resulting risk: R-14 (Low).
-  - **Legal currency of Chapters 551–552: CHECK PENDING (Brittany).**
+  - **Legal currency:** Brittany checked the official site on 2026-11-03. Chapters 551–552 show only "Added by Acts 2025" (H.B. 149), with no later amendments.
 - **Laws specific to minors and children's privacy:** not assessed (18+ product; see R-12).
 - **Users outside Texas:** other states' laws not assessed. Re-review before expanding.
 - **Documentation:** under §541.105(c)–(d) [S01], the Attorney General may request this assessment through a civil investigative demand, and it is confidential. Keep a dated copy with this PIA's decisions.

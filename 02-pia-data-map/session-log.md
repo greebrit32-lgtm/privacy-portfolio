@@ -132,5 +132,18 @@
 **Next step (S10):** One-page executive summary for leadership (`deliverables/4-executive-summary.md`), plus PDF exports of all deliverables.
 
 **Open questions for Brittany**
-- Should the Texas AI Governance Act (H.B. 149) be assessed (adds sources and a session) or stay an open item for counsel?
+- ~~AI Act~~ **Decided: assess it** (S9b).
+- Push on hold.
+
+## S9b — 2026-11-03 — Texas Responsible AI Governance Act assessment ✅ (added session)
+**Done**
+- Read H.B. 149 Chapters 551–552 in full (applicability, definitions, duties and prohibitions, enforcement). Wrote `working/traiga-assessment.md`, a section-by-section applicability table. All 14 quoted phrases verified against the bill text.
+- **Result:** the Act applies (§551.002), and the recommendation engine likely meets the "artificial intelligence system" definition (§551.001(1)). The disclosure, social-scoring, and biometric duties are for governmental entities. The private-sector prohibitions are intent-based and not implicated by the design. Practical exposure: AG civil investigative demand for AI system documentation (§552.103(b)); 60-day cure (§552.104).
+- **R-14 added** (AI documentation not prepared): **Low** inherent and residual (Brittany). Mitigation: an AI system record for SYS-3 plus the §541.104(a)(2) term in processor contracts. Totals: 8H/4M/2L → 0H/3M/11L.
+- **Statute check (Brittany, official site):** Chapters 551–552 show only "Added by Acts 2025," no later amendments.
+- PIA report, risk register, source register, and README plan (S9b row) updated.
+
+**Next step (S10):** One-page executive summary (`deliverables/4-executive-summary.md`) plus PDF exports of all deliverables.
+
+**Open questions for Brittany**
 - Push on hold.

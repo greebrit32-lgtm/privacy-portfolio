@@ -14,7 +14,7 @@
 
 ## Session plan
 | # | Session | Time | Stopping point |
-|---|---------|------|----------------|
+|------|------------------------------------------------------|--------|--------------------------------|
 | S1 | Scenario and fictional organization profile | 30m | `scenario.md` committed |
 | S2 | Legal and framework sources | 45–60m | Sources registered |
 | S3 | System description: features, users, data collection points | 45m | System description drafted |
@@ -24,6 +24,7 @@
 | S7 | Risk identification against FIPPs and the law | 60m | Risk list drafted |
 | S8 | Risk ratings and mitigations (Brittany rates; 3×3 method) | 45m | Ratings decided |
 | S9 | PIA report draft | 60m | Report drafted |
+| S9b | *(added)* Texas Responsible AI Governance Act assessment | 45m | R-14 added; PIA updated |
 | S10 | Executive summary and PDF exports | 45m | Summary final, 1 page |
 | S11 | Citation audit, polish, publish | 45m | Project 02 published |
 
