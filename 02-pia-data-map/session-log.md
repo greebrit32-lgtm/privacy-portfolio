@@ -106,3 +106,17 @@
 **Open questions for Brittany**
 - Ratings and mitigations (S8).
 - Still pending: manual check of Ch. 541 "Amended by" lines; push on hold.
+
+## S8 — 2026-11-03 — Risk ratings and mitigations ✅
+**Done (all decisions by Brittany)**
+- Inherent ratings accepted: **8 High** (R-01–R-08), **4 Medium** (R-09–R-11, R-13), **1 Low** (R-12).
+- Design decisions: **D-1** contextual ads only, no segment sales, aggregate reports; **D-2** background alerts off by default, specific opt-in, geofenced; **D-3** raw location kept 7 days then coarsened; **D-4** sensitive categories search-only unless the user opts in.
+- Supporting mitigations recorded for consent and notice, rights (in-app plus email, device signals, 45-day clock), organizers, vendor contracts, deletion, age screen, and warehouse.
+- Residual ratings accepted: **0 High / 3 Medium (R-01, R-03, R-13) / 10 Low**.
+- Study note: inherent vs. residual risk.
+
+**Next step (S9):** Write `deliverables/3-pia-report.md`: system description summary; §541.105(b) assessment (benefits vs. risks; de-identified data; consumer expectations; context; relationship); risk table with inherent → residual; design changes; launch recommendation (**Brittany decides**); sign-off block.
+
+**Open questions for Brittany**
+- Launch recommendation (S9).
+- **Needed before S9 cites Texas law as current:** manual check of Ch. 541 "Amended by" lines. Push on hold.

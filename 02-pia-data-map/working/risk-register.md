@@ -1,6 +1,6 @@
 # Risk Register — Lantern Local PIA (S7)
 
-**Status:** DRAFT. Risks identified; **no ratings yet** (S8: Brittany rates likelihood × impact with the 3×3 method from Project 01). Drafted 2026-11-03.
+**Status:** Risks identified (S7). **Ratings, mitigations, and residual ratings decided by Brittany Green, 2026-11-03 (S8)**. See the end of this file.
 
 _Fictional company, product, and data. Not legal advice._
 
@@ -134,3 +134,46 @@ _Fictional company, product, and data. Not legal advice._
 ## Notes for S8
 - **Most risks share a root cause:** location and sensitive categories are reused for advertising (R-02, R-04, R-05, R-06). A design change, such as separating event-finding from advertising, could address several at once.
 - Benefits to weigh (§541.105(b)(1)), for the S9 report: finding relevant local events, small-business revenue, and a free service for users.
+
+---
+
+## Ratings and mitigations (decided by Brittany, 2026-11-03)
+
+**Method:** 3×3 likelihood × impact, the same matrix as Project 01 (High×High/Medium → High; Medium×Medium → Medium; Low×High → Medium; Low×Medium/Low → Low). **Inherent** = the design as submitted. **Residual** = after the chosen mitigations are implemented.
+
+### Design decisions
+| # | Decision | Chosen option | Risks addressed |
+|---|----------|---------------|-----------------|
+| D-1 | Advertising model | **Contextual ads only.** Ads are based on the event or page being viewed. **No audience segment sales.** Advertisers get aggregate performance reports only (measurement is excluded from "targeted advertising," §541.001(31)(B) [S01]). Location and sensitive categories never feed advertising. Ad SDK configured without the device advertising ID. | R-02, R-04, R-05, R-06 |
+| D-2 | Background alerts (F-3) | **Off by default; separate, specific opt-in; geofenced** alerts near events the user saved, replacing collection every 15 minutes | R-01 |
+| D-3 | Raw precise location retention | **7 days**, then delete raw points and keep only coarse or interest signals | R-03, R-13 |
+| D-4 | Sensitive event categories | **Search-only.** Users can browse them, but they are never stored in the profile or check-in history unless the user explicitly opts in | R-04 |
+
+### Supporting mitigations (recommended with the decisions)
+- **Consent and notice (R-07):** separate, unchecked opt-ins (marketing, background location); just-in-time explanations at each collection point; a privacy notice meeting §541.102(a).
+- **Rights (R-08):** in-app privacy settings (opt-outs, deletion, export) plus an email address (§541.055(a)); honor device-level opt-out signals (§541.055(e)); track the 45-day response clock (§541.052(b)).
+- **Organizers (R-09):** share only what ticket fulfillment needs (§541.001(28)(B)); attendee opt-in for organizer marketing; no check-ins for sensitive categories; contract use limits.
+- **Vendors (R-10):** analytics configured as a processor, with §541.104(b) contract terms for TP-1, TP-3, TP-4; ad network contract limiting use.
+- **Deletion (R-11):** user-deletable check-ins (keep only badge counts); deletion and retention terms in partner contracts.
+- **Age (R-12):** neutral age screen, block re-entry after a failed attempt, a process for when the company learns a user is a minor.
+- **Warehouse (R-13):** keep only aggregated or coarse data in SYS-4; confirm access controls, logging, and encryption (outside this PIA's scope).
+
+### Ratings
+
+| ID | Risk | Inherent L | Inherent I | **Inherent** | Mitigation | Residual L | Residual I | **Residual** |
+|----|------|-----------|-----------|--------------|------------|-----------|-----------|--------------|
+| R-01 | Background location on by default | High | High | **High** | D-2 | Low | High | **Medium** |
+| R-02 | Location reused beyond the prompt's purpose | High | High | **High** | D-1 | Low | Medium | **Low** |
+| R-03 | 24-month location history | High | High | **High** | D-3 | Low | High | **Medium** |
+| R-04 | Sensitive categories in profiles and segments | Medium | High | **High** | D-1, D-4 | Low | Medium | **Low** |
+| R-05 | "Anonymous" segments sold to advertisers | High | High | **High** | D-1 | Low | Low | **Low** |
+| R-06 | Ad network receives profile, location, IDs | Medium | High | **High** | D-1 | Low | Medium | **Low** |
+| R-07 | Terms checkbox; pre-checked marketing | High | Medium | **High** | Consent and notice | Low | Medium | **Low** |
+| R-08 | One web-form opt-out | High | Medium | **High** | Rights | Low | Medium | **Low** |
+| R-09 | Organizer marketing use | Medium | Medium | **Medium** | Organizers | Low | Medium | **Low** |
+| R-10 | Analytics role and contracts | Medium | Medium | **Medium** | Vendors | Low | Medium | **Low** |
+| R-11 | Deletion gaps | Medium | Medium | **Medium** | Deletion | Low | Medium | **Low** |
+| R-12 | Self-declared age gate | Low | Medium | **Low** | Age | Low | Low | **Low** |
+| R-13 | Warehouse security | Low | High | **Medium** | D-3, Warehouse | Low | High | **Medium** |
+
+**Totals:** inherent 8 High / 4 Medium / 1 Low → residual **0 High / 3 Medium / 10 Low**. The three remaining Medium risks involve sensitive data that is still collected with consent (R-01, R-03) or controls outside this PIA's scope (R-13).
