@@ -37,7 +37,8 @@ def fit(text):
             weights = []
             for c in range(n):
                 lens = [len(re.sub(r"\*\*|`|\[([^\]]*)\]\([^)]*\)", r"\1", r[c])) for r in body if c < len(r)]
-                typical = statistics.median(lens) if lens else 0
+                # mean (not median) so a column with a few long cells among short/"—" ones still gets room
+                typical = statistics.mean(lens) if lens else 0
                 weights.append(max(len(header[c]), typical, 3) ** 0.85)
             total = sum(weights)
             dashes = [max(MIN, round(TOTAL * w / total)) for w in weights]

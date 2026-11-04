@@ -50,3 +50,15 @@
 
 **Open questions for Brittany**
 - Push on hold.
+
+## S4 — 2026-11-03 — Notification requirements matrix ✅
+**Done**
+- Read the remaining HIPAA text: §164.404(d) methods (first-class mail or agreed email; substitute notice for under 10 vs. 10+; urgent phone notice), §164.406(c) (media content = §164.404(c)), §164.410(c) (business associate content).
+- Confirmed via S07 that Texas §521.053 lists **no content requirements for individual notices** (only the AG notice in (i)); (h) CRAs get "the timing, distribution, and content of the notices"; (b-1) other-state residents may be notified under their state's law or Texas (b).
+- Wrote `deliverables/2-notification-matrix.md`: 10 rows (N-1 to N-7 incl. substitute and urgent notice, HHS 500+ vs. annual log), a threshold-at-a-glance table, and a **worked example** (discovery Fri 2027-01-15; Texas determination Wed 2027-01-20): Texas AG due **Feb 19** (comes first), HIPAA individuals/media/HHS due **Mar 16**, annual log Feb 29, 2028. Dates computed with code. PDF 4 pages.
+- `tools/fit_tables.py` now sizes columns by mean cell length (median under-sized columns with a few long cells).
+
+**Next step (S5):** Tabletop design: the incident storyline with a timed inject schedule (each inject: time, what the participants learn, the decision expected, the playbook/matrix section it tests), and hidden "ground truth" facts the facilitator reveals.
+
+**Open questions for Brittany**
+- Push on hold.
