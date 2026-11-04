@@ -71,5 +71,5 @@
 **Next step (S6):** Facilitator guide finishing touches and participant materials (holding-statement template, incident log template, 4-factor worksheet) so the S7 exercise can record decisions cleanly. Then S7: run it live.
 
 **Open questions for Brittany**
-- Approve the participant-facing package (README + briefing).
+- ~~Approve participant package~~ **Approved by Brittany (2026-11-03).**
 - Push on hold.
