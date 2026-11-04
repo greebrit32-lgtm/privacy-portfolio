@@ -159,3 +159,11 @@
 
 **Open questions for Brittany**
 - Push approval at S11.
+
+## S11 — 2026-11-03 — Citation audit, polish, publish prep ✅ (push pending Brittany's OK)
+**Done**
+- **Citation audit:** all source IDs registered. 159 quoted strings checked: 85 matched snapshot text automatically. **All 21 legal quotes verified** against S01/S03/S07/S08. The remainder are not source quotes: fictional product wording (scenario/system design), Mermaid labels, Brittany's official-site check ("Added by Acts 2025"), and two FTC phrases read verbatim via the fetch tool (ftc.gov blocks saving).
+- **Disclaimers** present on every Project 02 Markdown file and the .xlsx. **Privacy scan** clean.
+- **README** rewritten as a "start here" guide (findings, method, ground rules, AI-assistance disclosure, session plan incl. S9b). **Landing page:** Project 02 Complete, three new skills added.
+
+**Next:** push (Brittany's OK), then confirm the Mermaid map renders on GitHub. Then Project 03 planning.
