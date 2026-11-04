@@ -15,9 +15,9 @@ Lantern Local is a free, ad-supported events app that the company plans to launc
 
 The design triggers a data protection assessment under Texas law on several grounds: it processes **sensitive data** (precise geolocation, and categories revealing religion or sexuality), and, as designed, **targeted advertising** and **sale of personal data** (Tex. Bus. & Com. Code §541.105(a)(1), (2), (4) [S01]). This report is that assessment.
 
-**Findings:** 13 risks were identified. As designed, **8 are High, 4 Medium, and 1 Low.** Most High risks share one root cause: **location and sensitive interests collected to find events are reused for advertising.**
+**Findings:** 14 risks were identified. As designed, **8 are High, 4 Medium, and 2 Low.** Most High risks share one root cause: **location and sensitive interests collected to find events are reused for advertising.**
 
-**Recommendation: LAUNCH WITH CONDITIONS.** Approve launch once the four design changes (D-1–D-4) and the supporting mitigations in Section 6 are built and verified. With them, residual risk is **0 High, 3 Medium, 10 Low.** The three Medium risks are accepted with monitoring and a re-review in six months (Section 7).
+**Recommendation: LAUNCH WITH CONDITIONS.** Approve launch once the four design changes (D-1–D-4) and the supporting mitigations in Section 6 are built and verified. With them, residual risk is **0 High, 3 Medium, 11 Low.** The three Medium risks are accepted with monitoring and a re-review in six months (Section 7).
 
 | Design change | Effect |
 |------------------------------------------------------------|----------------------------------------|
@@ -34,8 +34,9 @@ The design triggers a data protection assessment under Texas law on several grou
   - FTC Act §5 [S03]; FTC location-data actions as illustrations [S04–S06].
   - The nine FIPPs [S07] as the risk lens.
 - **Assumption:** Mesquite Lantern is not an SBA small business, so Chapter 541 applies in full (§541.002(a)(3) [S01]; scenario §5).
-- **Method:** data inventory (24 data types) → data-flow map (15 flows) → risk identification (13 risks) → likelihood × impact ratings (3×3) → design decisions → residual ratings.
-- **Out of scope:** users outside Texas; laws specific to minors; security testing; contract negotiation; and the **Texas Responsible Artificial Intelligence Governance Act** (see Section 8).
+- **Method:** data inventory (24 data types) → data-flow map (15 flows) → risk identification (14 risks) → likelihood × impact ratings (3×3) → design decisions → residual ratings.
+- **Also assessed:** the Texas Responsible Artificial Intelligence Governance Act (H.B. 149, eff. 2026-01-01) [S08], section by section ([assessment](../working/traiga-assessment.md)).
+- **Out of scope:** users outside Texas; laws specific to minors; security testing; contract negotiation.
 
 ## 3. The system as designed
 
@@ -94,7 +95,8 @@ Full detail with citations is in the [risk register](../working/risk-register.md
 | R-11 | Deletion requests can't fully be honored (§541.051(b)(3)) | Medium | Deletion | Low |
 | R-12 | Self-declared age gate | Low | Age | Low |
 | R-13 | Concentrated sensitive data in the data warehouse (§541.101(a)(2)) | Medium | D-3, Warehouse | **Medium** |
-| | **Totals** | **8 H / 4 M / 1 L** | | **0 H / 3 M / 10 L** |
+| R-14 | Recommendation engine likely a regulated "artificial intelligence system"; AI documentation not prepared (§551.001(1); §552.103(b) [S08]) | Low | AI record | Low |
+| | **Totals** | **8 H / 4 M / 2 L** | | **0 H / 3 M / 11 L** |
 
 ## 6. Conditions for launch
 
@@ -107,7 +109,8 @@ Full detail with citations is in the [risk register](../working/risk-register.md
 4. **Vendors:** processor contracts with the §541.104(b) terms for analytics, push, and payment providers. Analytics configured so the provider does not use data for its own purposes. An ad network contract limiting use; SDK set up without the device advertising ID.
 5. **Deletion:** users can delete check-ins (only badge counts kept); deletion and retention terms flowed down to partners.
 6. **Age screen:** neutral date-of-birth screen; block re-entry after a failed attempt; a process for responding when the company learns a user is a minor.
-7. **Data warehouse:** only aggregated or coarse data in SYS-4; Security to confirm access controls, logging, and encryption.
+7. **AI system record (R-14):** a short record for the recommendation engine covering the items the Attorney General may request (purpose, training data, inputs, outputs, metrics, limitations, monitoring; §552.103(b) [S08]); add the §541.104(a)(2) AI-security assistance term to processor contracts.
+8. **Data warehouse:** only aggregated or coarse data in SYS-4; Security to confirm access controls, logging, and encryption.
 
 **Verification before launch:** the privacy analyst reviews the built onboarding and consent screens, privacy settings, ad SDK configuration, retention jobs, and signed vendor contracts against this list.
 
@@ -122,7 +125,12 @@ Full detail with citations is in the [risk register](../working/risk-register.md
 **Re-review:** six months after launch, or sooner on any material change, such as new data uses, new recipients, targeted advertising, or a change in user ages. Texas requires a documented assessment of each processing activity listed in §541.105(a), so any new activity of that kind needs its own assessment.
 
 ## 8. Open items and scope notes
-- **Texas Responsible Artificial Intelligence Governance Act (H.B. 149, eff. 2026-01-01) [S08].** It defines "artificial intelligence system" to include systems that infer how to generate outputs "including content, decisions, predictions, or recommendations" (§551.001(1)). **Lantern Local's recommendation engine (SYS-3) may meet this definition.** The Act's obligations were not assessed in this PIA. Recommend counsel review before launch.
+- **Texas Responsible Artificial Intelligence Governance Act (H.B. 149, eff. 2026-01-01) [S08]: assessed** ([detail](../working/traiga-assessment.md)).
+  - **Applies:** Mesquite Lantern conducts business in Texas (§551.002), and the recommendation engine likely meets the "artificial intelligence system" definition (§551.001(1)).
+  - **Not applicable:** the consumer-disclosure duty in §552.051(b), social scoring (§552.053), and biometric identification (§552.054) are stated for governmental entities.
+  - **Intent-based prohibitions** that bind any person (manipulation, §552.052; constitutional rights, §552.055; unlawful discrimination, §552.056, where "disparate impact is not sufficient by itself"; sexual content, §552.057) are not implicated by the design.
+  - **Enforcement:** by the Attorney General only, with a 60-day cure period (§§552.101, .104). Resulting risk: R-14 (Low).
+  - **Legal currency of Chapters 551–552: CHECK PENDING (Brittany).**
 - **Laws specific to minors and children's privacy:** not assessed (18+ product; see R-12).
 - **Users outside Texas:** other states' laws not assessed. Re-review before expanding.
 - **Documentation:** under §541.105(c)–(d) [S01], the Attorney General may request this assessment through a civil investigative demand, and it is confidential. Keep a dated copy with this PIA's decisions.

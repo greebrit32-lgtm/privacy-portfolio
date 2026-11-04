@@ -29,6 +29,7 @@ _Fictional company, product, and data. Not legal advice._
 | R-11 | Deletion requests can't fully be honored (check-ins kept forever; downstream copies) | F-5, F-8, F-10; DE-14, DE-21; TP-1, TP-2, TP-5, TP-6 | Individual Participation; Minimization |
 | R-12 | Age limit relies on a self-declared date of birth | F-1; DE-04 | Quality and Integrity |
 | R-13 | Security of concentrated location and profile data in the data warehouse | SYS-2, SYS-4; DE-09, DE-12, DE-14 | Security |
+| R-14 | Recommendation engine likely an "artificial intelligence system" under the Texas Responsible AI Governance Act; AI documentation not prepared | SYS-3; F-4 | Accountability; Transparency |
 
 ---
 
@@ -131,6 +132,13 @@ _Fictional company, product, and data. Not legal advice._
 - **Gap:** Security controls for SYS-4 are outside this PIA's scope (scenario §6). This risk records that the warehouse concentrates the most sensitive data in the system, so its controls need confirming.
 - **Mitigation options:** keep only aggregated or coarse data in the warehouse; access controls and logging; encryption; retention limits matching R-03.
 
+### R-14. Recommendation engine likely a regulated "artificial intelligence system" (added S9b)
+- **Detail:** see [traiga-assessment.md](traiga-assessment.md).
+- **Design:** SYS-3 infers interests and outputs event recommendations (F-4). There is no AI system documentation.
+- **Requirement:** The Texas Responsible Artificial Intelligence Governance Act applies to a person who conducts business in Texas or develops or deploys an AI system there (§551.002 [S08]). An "artificial intelligence system" includes systems inferring how to generate "recommendations" (§551.001(1)). After a complaint, the Attorney General may demand a description of the system's purpose, training data, inputs, outputs, metrics, limitations, and monitoring (§552.103(b)). Processors must help secure data processed by an AI system (§541.104(a)(2), as amended).
+- **Gap:** No AI system record for SYS-3. Processor contracts don't address AI-system data security. The Act's private-sector prohibitions (§§552.052, .055, .056, .057) are intent-based, and the design shows no such intent.
+- **Mitigation options:** an AI system record covering the §552.103(b) items; no protected-class attributes in SYS-3 (follows from D-4); the §541.104(a)(2) term in processor contracts; monitor AG guidance.
+
 ## Notes for S8
 - **Most risks share a root cause:** location and sensitive categories are reused for advertising (R-02, R-04, R-05, R-06). A design change, such as separating event-finding from advertising, could address several at once.
 - Benefits to weigh (§541.105(b)(1)), for the S9 report: finding relevant local events, small-business revenue, and a free service for users.
@@ -156,6 +164,7 @@ _Fictional company, product, and data. Not legal advice._
 - **Vendors (R-10):** analytics configured as a processor, with §541.104(b) contract terms for TP-1, TP-3, TP-4; ad network contract limiting use.
 - **Deletion (R-11):** user-deletable check-ins (keep only badge counts); deletion and retention terms in partner contracts.
 - **Age (R-12):** neutral age screen, block re-entry after a failed attempt, a process for when the company learns a user is a minor.
+- **AI record (R-14):** a short AI system record for SYS-3 covering the §552.103(b) items [S08]; the §541.104(a)(2) AI-security term in processor contracts.
 - **Warehouse (R-13):** keep only aggregated or coarse data in SYS-4; confirm access controls, logging, and encryption (outside this PIA's scope).
 
 ### Ratings
@@ -175,5 +184,6 @@ _Fictional company, product, and data. Not legal advice._
 | R-11 | Deletion gaps | Medium | Medium | **Medium** | Deletion | Low | Medium | **Low** |
 | R-12 | Self-declared age gate | Low | Medium | **Low** | Age | Low | Low | **Low** |
 | R-13 | Warehouse security | Low | High | **Medium** | D-3, Warehouse | Low | High | **Medium** |
+| R-14 | AI Act documentation (added S9b) | Low | Medium | **Low** | AI record | Low | Low | **Low** |
 
-**Totals:** inherent 8 High / 4 Medium / 1 Low → residual **0 High / 3 Medium / 10 Low**. The three remaining Medium risks involve sensitive data that is still collected with consent (R-01, R-03) or controls outside this PIA's scope (R-13).
+**Totals:** inherent 8 High / 4 Medium / 2 Low → residual **0 High / 3 Medium / 11 Low**. The three remaining Medium risks involve sensitive data that is still collected with consent (R-01, R-03) or controls outside this PIA's scope (R-13).
