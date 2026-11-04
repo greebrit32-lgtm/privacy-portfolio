@@ -39,3 +39,14 @@
 
 **Open questions for Brittany**
 - Push on hold.
+
+## S3 — 2026-11-03 — Incident response playbook ✅
+**Done**
+- Read NIST SP 800-61r3's structure: CSF 2.0 Functions; Table 1 maps the old phases to Govern/Identify/Protect (preparation), Detect/Respond/Recover (response), and ID.IM (improvement).
+- Wrote `deliverables/1-incident-response-playbook.md`: purpose and scope (§164.308(a)(6), §164.304); roles and contact tree (roles only); **severity levels SEV-1–4 (approved by Brittany)**; phases with checklists mapped to CSF categories (DE.CM/AE, RS.MA/AN/CO/MI, RC.RP/CO, ID.IM); HIPAA breach determination (presumption, 4 factors, HHS ransomware position, burden of proof §164.414); a **Mermaid decision tree** (rendered and checked in Chrome); a notification clock table (HIPAA individuals/HHS/media; Texas individuals/AG/CRAs; other states via §521.053(b-1)); records to keep; communication rules.
+- Verified §164.412 (oral law-enforcement request: document it, delay ≤ 30 days) and §164.404(c)(2) (plain language) against the text.
+
+**Next step (S4):** Notification requirements matrix (`deliverables/2-notification-matrix.md`): each obligation with trigger, recipient, deadline, method, required content, and source, plus a worked example of the clock for a Friday discovery.
+
+**Open questions for Brittany**
+- Push on hold.

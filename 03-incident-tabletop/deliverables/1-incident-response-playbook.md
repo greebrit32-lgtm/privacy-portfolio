@@ -1,7 +1,7 @@
 # Incident Response Playbook — Agarita Family Medicine
 
 **Organization:** Agarita Family Medicine, P.A. *(fictional)* · **Owner:** Privacy Officer (Practice Administrator), with the Security Officer (IT Manager)
-**Prepared by:** Brittany Green, Privacy Analyst · **Version:** 1.0 DRAFT, 2026-11-03 · **Status:** Severity levels **PROPOSED — Brittany to decide**
+**Prepared by:** Brittany Green, Privacy Analyst · **Version:** 1.0, 2026-11-03 · **Status:** Approved for the exercise. Severity levels approved by Brittany Green, 2026-11-03
 
 > _Independent educational exercise. Fictional organization; roles only, no real people or contact details. Not legal advice. Legal sources: [source register](../sources/source-register.md)._
 
@@ -27,7 +27,7 @@
 
 **Contact tree:** the notifying staff member → Incident Commander → Privacy Lead and Privacy Officer → (SEV-1/2) Medical Director, MSP, insurer hotline → breach coach. *(Phone numbers and on-call schedules are kept in the clinic's internal copy, not here.)*
 
-## 3. Severity levels (PROPOSED — Brittany to decide)
+## 3. Severity levels (approved 2026-11-03)
 
 | Level | Criteria (any one) | Initial response |
 |----------|-----------------------------------------------------------------|-------------------------|
