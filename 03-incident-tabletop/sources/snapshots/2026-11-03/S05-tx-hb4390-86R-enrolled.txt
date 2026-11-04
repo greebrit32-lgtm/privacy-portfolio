@@ -1,0 +1,140 @@
+Source: https://capitol.texas.gov/tlodocs/86R/billtext/html/HB04390F.HTM
+Accessed: 2026-11-03
+Raw SHA-256: bdda573c451a7badb4b238c5b1fcb83d6f4a11fb4efcff58000f7e1f7fbd5b7e
+
+86(R) HB 4390 - Enrolled version - Bill Text 
+ H.B. No. 4390 
+ AN ACT 
+ relating to the privacy of personal identifying information and the 
+ creation of the Texas Privacy Protection Advisory Council. 
+        BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS: 
+        SECTION 1.  Section 521.053, Business & Commerce Code, is 
+ amended by amending Subsection (b) and adding Subsection (i) to 
+ read as follows: 
+        (b)  A person who conducts business in this state and owns or 
+ licenses computerized data that includes sensitive personal 
+ information shall disclose any breach of system security, after 
+ discovering or receiving notification of the breach, to any 
+ individual whose sensitive personal information was, or is 
+ reasonably believed to have been, acquired by an unauthorized 
+ person. The disclosure shall be made without unreasonable delay and 
+ in each case not later than the 60th day after the date on which the 
+ person determines that the breach occurred [ as quickly as 
+ possible ], except as provided by Subsection (d) or as necessary to 
+ determine the scope of the breach and restore the reasonable 
+ integrity of the data system. 
+         (i)     A person who is required to disclose or provide 
+ notification of a breach of system security under this section 
+ shall notify the attorney general of that breach not later than the 
+ 60th day after the date on which the person determines that the 
+ breach occurred if the breach involves at least 250 residents of 
+ this state. The notification under this subsection must include: 
+               (1)     a detailed description of the nature and 
+ circumstances of the breach or the use of sensitive personal 
+ information acquired as a result of the breach; 
+               (2)     the number of residents of this state affected by 
+ the breach at the time of notification; 
+               (3)     the measures taken by the person regarding the 
+ breach; 
+               (4)     any measures the person intends to take regarding 
+ the breach after the notification under this subsection; and 
+               (5)     information regarding whether law enforcement is 
+ engaged in investigating the breach. 
+        SECTION 2.  (a) In this section, "council" means the Texas 
+ Privacy Protection Advisory Council created under this section. 
+        (b)  The Texas Privacy Protection Advisory Council is 
+ created to study data privacy laws in this state, other states, and 
+ relevant foreign jurisdictions. 
+        (c)  The council is composed of members who are residents of 
+ this state and appointed as follows: 
+              (1)  five members appointed by the speaker of the house 
+ of representatives, two of whom must be representatives of an 
+ industry listed under Subsection (d) of this section and three of 
+ whom must be members of the house of representatives; 
+              (2)  five members appointed by the lieutenant governor, 
+ two of whom must be representatives of an industry listed under 
+ Subsection (d) of this section and three of whom must be senators; 
+ and 
+              (3)  five members appointed by the governor, three of 
+ whom must be representatives of an industry listed under Subsection 
+ (d) of this section and two of whom must be either: 
+                    (A)  a representative of a nonprofit organization 
+ that studies or evaluates data privacy laws from the perspective of 
+ individuals whose information is collected or processed by 
+ businesses; or 
+                    (B)  a professor who teaches at a law school in 
+ this state or other institution of higher education, as defined by 
+ Section 61.003, Education Code, and whose books or scholarly 
+ articles on the topic of data privacy have been published. 
+        (d)  For purposes of making appointments of members who 
+ represent industries under Subsection (c) of this section, the 
+ speaker of the house of representatives, lieutenant governor, and 
+ governor shall appoint members from among the following industries 
+ and must coordinate their appointments to avoid overlap in 
+ representation of the industries: 
+              (1)  medical profession; 
+              (2)  technology; 
+              (3)  Internet; 
+              (4)  retail and electronic transactions; 
+              (5)  consumer banking; 
+              (6)  telecommunications; 
+              (7)  consumer data analytics; 
+              (8)  advertising; 
+              (9)  Internet service providers; 
+              (10)  social media platforms; 
+              (11)  cloud data storage; 
+              (12)  virtual private networks; or 
+              (13)  retail electric. 
+        (e)  The speaker of the house of representatives and the 
+ lieutenant governor shall each designate a co-chair from among 
+ their respective appointments to the council who are members of the 
+ legislature. 
+        (f)  The council shall convene on a regular basis at the 
+ joint call of the co-chairs. 
+        (g)  The council shall: 
+              (1)  study and evaluate the laws in this state, other 
+ states, and relevant foreign jurisdictions that govern the privacy 
+ and protection of information that alone or in conjunction with 
+ other information identifies or is linked or reasonably linkable to 
+ a specific individual, technological device, or household; and 
+              (2)  make recommendations to the members of the 
+ legislature on specific statutory changes regarding the privacy and 
+ protection of that information, including changes to Chapter 521, 
+ Business & Commerce Code, as amended by this Act, or to the Penal 
+ Code, that appear necessary from the results of the council's study 
+ under this section. 
+        (h)  Not later than September 1, 2020, the council shall 
+ report the council's findings and recommendations to the members of 
+ the legislature. 
+        (i)  The Department of Information Resources shall provide 
+ administrative support to the council. 
+        (j)  Not later than the 60th day after the effective date of 
+ this Act, the speaker of the house of representatives, the 
+ lieutenant governor, and the governor shall appoint the members of 
+ the council. 
+        (k)  The council is abolished and this section expires 
+ December 31, 2020. 
+        SECTION 3.  (a)  Except as provided by Subsection (b) of this 
+ section, this Act takes effect September 1, 2019. 
+        (b)  Section 521.053, Business & Commerce Code, as amended by 
+ this Act, takes effect January 1, 2020. 
+ ______________________________ 
+ ______________________________ 
+    President of the Senate 
+ Speaker of the House      
+        I certify that H.B. No. 4390 was passed by the House on May 7, 
+ 2019, by the following vote:  Yeas 140, Nays 0, 2 present, not 
+ voting; and that the House concurred in Senate amendments to H.B. 
+ No. 4390 on May 24, 2019, by the following vote:  Yeas 138, Nays 3, 
+ 2 present, not voting. 
+ ______________________________ 
+ Chief Clerk of the House    
+        I certify that H.B. No. 4390 was passed by the Senate, with 
+ amendments, on May 22, 2019, by the following vote:  Yeas 30, Nays 
+ 1. 
+ ______________________________ 
+ Secretary of the Senate    
+ APPROVED: __________________ 
+                 Date        
+          __________________ 
+               Governor

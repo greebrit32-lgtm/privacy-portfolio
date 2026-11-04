@@ -22,3 +22,20 @@
 **Open questions for Brittany**
 - Review `scenario.md`.
 - Push on hold (1 commit ahead plus this one).
+
+## S2 — 2026-11-03 — Legal and framework sources ✅
+**Done**
+- Registered S01–S09: HIPAA Breach Notification Rule (45 CFR 164 Subpart D) and Security Rule incident provisions (§§164.304, 164.308(a)(6)), from eCFR, current as of 2026-11-02 with no amendments in eCFR history since 2017 (so the proposed Security Rule overhaul is not in effect); the HHS Ransomware fact sheet (hhs.gov blocks downloads; read from an Internet Archive capture of 2026-10-26); Texas Bus. & Com. Code §§521.002/521.053 (codified, plus H.B. 4390 (2019), S.B. 768 (2023), a mirror); the Texas AG Data Breach Reporting page; and NIST SP 800-61 Rev. 3 (April 2025; CSF 2.0 profile).
+- **Statute check (Brittany, official site):** §521.002 last amended 2009; §521.053 last amended 2023 (S.B. 768). Nothing later.
+- **Decision (Brittany):** Texas Health & Safety Code Ch. 181 is out of scope (noted as related, not assessed).
+- Study notes: HIPAA breach presumption and the 4 factors; HHS's ransomware position; the HIPAA vs. Texas notification clocks.
+
+**Key points for S3–S4 (sourced)**
+- Ransomware encryption of ePHI = "acquired," so a breach is presumed unless low probability is shown by the 4-factor assessment [S03; §164.402].
+- HIPAA: individuals within 60 days of discovery (§164.404(b)); media if more than 500 residents of a state (§164.406); HHS at the same time as individual notice if 500+, else an annual log (§164.408); business associates notify the covered entity (§164.410); law-enforcement delay (§164.412).
+- Texas: health information is sensitive personal information (§521.002(a)(2)(B)); individuals within 60 days of determining the breach (§521.053(b)); AG within 30 days if 250+ Texans, by electronic form (§521.053(i)); consumer reporting agencies if more than 10,000 notified (§521.053(h)); residents of other states may be notified under their own state's law (§521.053(b-1)).
+
+**Next step (S3):** Incident response playbook: roles, severity levels, response phases mapped to NIST SP 800-61r3 / CSF 2.0 functions, and a breach-notification decision tree (HIPAA 4-factor plus Texas triggers).
+
+**Open questions for Brittany**
+- Push on hold.

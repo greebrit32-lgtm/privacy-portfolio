@@ -55,5 +55,6 @@ _Disclaimer: independent educational exercise. Fictional organization and data. 
 Named here only. Each will be registered with a URL and access date in S2.
 - **HIPAA Breach Notification Rule** and related HHS guidance (including guidance on ransomware)
 - **HIPAA Security Rule**, for incident response requirements
-- **Texas breach-notification law** and **Texas medical-records privacy law**
+- **Texas breach-notification law** (Tex. Bus. & Com. Code Ch. 521)
+- *Texas medical-records privacy law (Health & Safety Code Ch. 181): **out of scope** (Brittany, 2026-11-03). It mainly governs use, disclosure, and training, not breach notice. Noted as related, not assessed.*
 - **NIST incident-handling guidance** as the process framework
