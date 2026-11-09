@@ -87,3 +87,24 @@
 
 **Open questions for Brittany**
 - Push on hold.
+
+## S7 (part 1) — 2026-11-09 — Live tabletop, in progress ⏸️
+**Done**
+- Started the exercise (Incident ID AFM-2027-001). Played **Inject 0** (Fri 1/15, 10:05 p.m., first hour).
+- Brittany's decisions are recorded in deliverable 4, Part 1, timeline rows 4–7:
+  - presumed breach, high severity; the attackers' 72-hour deadline doesn't drive decisions;
+  - containment: isolate without powering off or wiping; don't contact or pay the attackers; photograph the note; phones only;
+  - call order: Practice Administrator → insurer → Medical Director → FBI (once counsel is engaged);
+  - interview the MA tonight.
+- Played the insurer's in-character reply and delivered **Inject 1** (Sat 1/16, 9:00 a.m.).
+
+**Next step (S7, continued):** Resume at **Inject 1**. Brittany answers:
+1. Marcus's two log questions: which time is the discovery time (9:40 or 9:52 p.m.; open question Q1), and which SEV level to declare;
+2. the MSP's offer to wipe and restore from the Jan 5 off-site copy today;
+3. Dr. Ellis's question, "Can we open Monday?"
+
+Then continue through Inject 10. The facilitator script stays **sealed**.
+
+**Open questions for Brittany**
+- Q1 (discovery time) and the SEV level are pending in the exercise.
+- Push on hold.
