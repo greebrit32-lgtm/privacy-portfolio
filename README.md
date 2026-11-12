@@ -2,6 +2,8 @@
 
 After 14 years as a high school teacher, I'm moving into privacy and compliance. I hold **CompTIA Security+ (SY0-701)** and **Microsoft SC-300 (Identity and Access Administrator)**, and I'm studying for the **IAPP CIPP/US**. In the classroom I was the person handling student data every day. This portfolio shows the work on the other side: reviewing vendors, mapping data flows, and getting ready for incidents.
 
+**Connect with me:** [LinkedIn](https://www.linkedin.com/in/brittany-green-3b2bab40a) · **Also see:** [Microsoft Entra ID & NIST 800-171 Lab](https://github.com/greebrit32-lgtm/prairie-creek-iam)
+
 Each project copies a task an entry-level Privacy Analyst does at work. All of them use **public information and fictional organizations only**.
 
 ## Projects
