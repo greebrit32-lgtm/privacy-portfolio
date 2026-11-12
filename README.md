@@ -1,6 +1,6 @@
 # Privacy Analyst Portfolio — Brittany Green
 
-After 14 years as a high school teacher, I'm moving into privacy and compliance. I'm studying for the **IAPP CIPP/US** and **CompTIA Security+**. In the classroom I was the person handling student data every day. This portfolio shows the work on the other side: reviewing vendors, mapping data flows, and getting ready for incidents.
+After 14 years as a high school teacher, I'm moving into privacy and compliance. I hold **CompTIA Security+ (SY0-701)** and **Microsoft SC-300 (Identity and Access Administrator)**, and I'm studying for the **IAPP CIPP/US**. In the classroom I was the person handling student data every day. This portfolio shows the work on the other side: reviewing vendors, mapping data flows, and getting ready for incidents.
 
 Each project copies a task an entry-level Privacy Analyst does at work. All of them use **public information and fictional organizations only**.
 
