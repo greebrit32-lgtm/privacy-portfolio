@@ -4,7 +4,7 @@
 
 **Measured against (named only; sourced in S2):** the HIPAA Breach Notification Rule and related HHS guidance, Texas breach-notification and medical-records privacy law, and NIST incident-handling guidance as the process framework.
 
-**Status:** Planned. Plan approved 2026-11-03. Not started.
+**Status:** In progress. Sessions S1–S6 complete (scenario, sources, playbook v1.0, notification matrix, tabletop package, exercise templates). S7 live tabletop started; paused at Inject 1. Deliverables 1–3 done; 4 started; 5–6 not started.
 
 ## Deliverables
 1. `deliverables/1-incident-response-playbook.md`: roles, severity levels, response phases, and a breach-notification decision tree

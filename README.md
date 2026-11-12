@@ -10,7 +10,7 @@ Each project copies a task an entry-level Privacy Analyst does at work. All of t
 |---|---------|---------------|--------|
 | 01 | [EdTech Vendor Privacy Review](01-edtech-vendor-review/) | Third-party risk assessment of a real edtech vendor's public documents (Wayground, formerly Quizizz) against FERPA, COPPA, Texas student-data law, and the SDPC National Data Privacy Agreement. Deliverables: questionnaire, risk assessment, and a 2-page memo recommending conditional approval. | **Complete** |
 | 02 | [Privacy Impact Assessment & Data Map](02-pia-data-map/) | Pre-launch PIA of a fictional Texas events app that uses location and advertising: data inventory, data-flow map, a PIA structured on the Texas data protection assessment requirements, and a 1-page summary. Four design changes took risk from 8 High to 0 High. Includes the Texas AI Governance Act (2026). | **Complete** |
-| 03 | [Incident Response Tabletop](03-incident-tabletop/) | Breach-notification analysis and a tabletop exercise | Planned |
+| 03 | [Incident Response Tabletop](03-incident-tabletop/) | Ransomware incident at a fictional Texas health clinic, measured against HIPAA breach notification, Texas breach law, and NIST SP 800-61r3. Done so far: incident response playbook (roles, severity levels, notification decision tree), a breach-notification requirements matrix with a worked deadline example, and a tabletop exercise package. Live tabletop exercise underway. | **In progress** |
 
 ## Skills demonstrated
 - **Vendor / third-party privacy risk assessment:** questionnaire design, a weighted scoring rubric, and likelihood × impact risk ratings *(Project 01)*
